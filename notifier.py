@@ -3,7 +3,10 @@ Email notification module for AI Research Daily.
 Generates an executive-grade HTML intelligence briefing and sends via Gmail SMTP.
 """
 
+import os
+import re
 import smtplib
+from html import unescape
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from typing import List
@@ -18,6 +21,61 @@ from config import (
 from models import AIResearchItem
 
 
+def md_to_html(text: str) -> str:
+    """
+    Converts markdown bold, italic, code, links, and HTML entities into clean, safe inline HTML.
+    Strips broken RSS HTML fragments and ensures no raw markdown asterisks (*) appear in the email.
+    """
+    if not text:
+        return ""
+
+    text = unescape(text)
+
+    # Strip broken RSS HTML tags (e.g. from Google News RSS feeds)
+    text = re.sub(r'<font[^>]*>', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'</font>', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'<a\s+href=[\"\']?\s*target=[\"\']?_blank[\"\']?>', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'</a>', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'&nbsp;', ' ', text)
+
+    # 1. Bold italic: ***text*** or ___text___
+    text = re.sub(r'\*\*\*(.+?)\*\*\*', r'<strong style="color: #09090b; font-weight: 800;"><em>\1</em></strong>', text)
+    text = re.sub(r'___(.+?)___', r'<strong style="color: #09090b; font-weight: 800;"><em>\1</em></strong>', text)
+
+    # 2. Bold: **text** or __text__
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong style="color: #09090b; font-weight: 700;">\1</strong>', text)
+    text = re.sub(r'__(.+?)__', r'<strong style="color: #09090b; font-weight: 700;">\1</strong>', text)
+
+    # 3. Italic: *text* or _text_
+    text = re.sub(r'(?<!\*)\*([^\*]+?)\*(?!\*)', r'<em style="color: #27272a;">\1</em>', text)
+    text = re.sub(r'(?<!\w)_([^_]+?)_(?!\w)', r'<em style="color: #27272a;">\1</em>', text)
+
+    # 4. Inline code: `text`
+    text = re.sub(r'`([^`]+?)`', r'<code style="font-family: \'SF Mono\', Menlo, Consolas, monospace; font-size: 12px; background-color: #f4f4f5; padding: 2px 4px; border-radius: 3px; color: #09090b;">\1</code>', text)
+
+    # 5. Markdown links: [text](url)
+    text = re.sub(r'\[([^\]]+)\]\((https?://[^\)]+)\)', r'<a href="\2" target="_blank" style="color: #09090b; text-decoration: underline;">\1</a>', text)
+
+    # 6. Clean up stray / unclosed asterisks
+    text = re.sub(r'(?<!\w)\*(?!\w)', '', text)
+
+    return text.strip()
+
+
+def md_to_plain_text(text: str) -> str:
+    """Strips HTML tags and markdown asterisks for clean plain-text fallback."""
+    if not text:
+        return ""
+    text = unescape(text)
+    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+    text = re.sub(r'\*(.+?)\*', r'\1', text)
+    text = re.sub(r'`(.+?)`', r'\1', text)
+    text = re.sub(r'(?<!\w)\*(?!\w)', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
 def build_newsletter_content(items: List[AIResearchItem], date_str: str) -> tuple[str, str]:
     """
     Builds a high-end, minimalist Editorial AI Tech Journal newsletter.
@@ -28,7 +86,7 @@ def build_newsletter_content(items: List[AIResearchItem], date_str: str) -> tupl
     """
     count = len(items)
 
-    # 1. Plain Text Version
+    # 1. Plain Text Version (Markdown & HTML cleaned)
     text_lines = [
         "=================================================================",
         "                      THE AI PARADIGM",
@@ -38,12 +96,15 @@ def build_newsletter_content(items: List[AIResearchItem], date_str: str) -> tupl
     ]
 
     for idx, it in enumerate(items, 1):
-        text_lines.append(f"[{idx:02d}] {it.title.upper()}")
+        clean_title = md_to_plain_text(it.title)
+        clean_crux = md_to_plain_text(it.crux)
+        text_lines.append(f"[{idx:02d}] {clean_title.upper()}")
         text_lines.append(f"     SOURCE   : {it.source} | CATEGORY: {it.category}")
-        text_lines.append(f"\n     THE CRUX (PLAIN ENGLISH):\n     {it.crux}\n")
+        text_lines.append(f"\n     THE CRUX (PLAIN ENGLISH):\n     {clean_crux}\n")
         text_lines.append("     KEY BREAKTHROUGHS & PARADIGM SHIFT:")
         for pt in it.key_points:
-            text_lines.append(f"       — {pt}")
+            clean_pt = md_to_plain_text(pt)
+            text_lines.append(f"       — {clean_pt}")
         text_lines.append(f"\n     PRIMARY  : {it.url}")
         if it.pdf_url:
             text_lines.append(f"     PDF LINK : {it.pdf_url}")
@@ -55,6 +116,9 @@ def build_newsletter_content(items: List[AIResearchItem], date_str: str) -> tupl
     # 2. Editorial Minimalist HTML Cards
     cards_html = []
     for idx, it in enumerate(items, 1):
+        html_title = md_to_html(it.title)
+        html_crux = md_to_html(it.crux)
+
         # Action Buttons (Canva/Adobe Minimalist Solid + Ghost Buttons)
         pdf_button_html = ""
         if it.pdf_url:
@@ -86,16 +150,17 @@ def build_newsletter_content(items: List[AIResearchItem], date_str: str) -> tupl
         </td>
         """
 
-        # Bullets formatting
+        # Bullets formatting (Parsed to rich HTML: bold tags, italic tags, zero raw asterisks)
         bullets_rows = []
         for pt in it.key_points:
+            formatted_pt = md_to_html(pt)
             bullets_rows.append(f"""
             <tr>
                 <td style="padding: 4px 0; vertical-align: top; width: 22px; color: #09090b; font-weight: 700; font-size: 13px;">
                     —
                 </td>
                 <td style="padding: 4px 0 6px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; color: #3f3f46; line-height: 1.6;">
-                    {pt}
+                    {formatted_pt}
                 </td>
             </tr>
             """)
@@ -126,7 +191,7 @@ def build_newsletter_content(items: List[AIResearchItem], date_str: str) -> tupl
                     <!-- Headline Title -->
                     <h2 style="margin: 0 0 16px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 18.5px; font-weight: 800; line-height: 1.35; letter-spacing: -0.4px;">
                         <a href="{it.url}" target="_blank" style="color: #09090b; text-decoration: none;">
-                            {it.title}
+                            {html_title}
                         </a>
                     </h2>
 
@@ -138,7 +203,7 @@ def build_newsletter_content(items: List[AIResearchItem], date_str: str) -> tupl
                                     THE CRUX (PLAIN ENGLISH)
                                 </span>
                                 <p style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; color: #27272a; line-height: 1.55;">
-                                    {it.crux}
+                                    {html_crux}
                                 </p>
                             </td>
                         </tr>
