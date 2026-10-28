@@ -3,121 +3,107 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `27 October 2026`  
+**Latest Edition:** `28 October 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. Reading, Writing, Sharing, and Interacting with the World through Video
-**🏛️ Source:** `arXiv / Hugging Face (266 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+### 1. AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos
+**🏛️ Source:** `arXiv / Hugging Face (39 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world.
+> Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict.
-  - 📊 **Key Results:** This survey adopts world modeling as a unifying lens for examining these developments.
-  - 🚀 **Paradigm Shift:** Across tasks, representations, models, datasets, and benchmarks, we trace a shift in emphasis from clip-level recognition and perceptual fidelity toward persistent state, controllable evolution, physical and causal validity, and evaluation grounded in interaction and downstream decisions, and we distill the open challenges that follow.
+  - 💡 **Core Innovation:** We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulations in open-scene long-form audio-visual videos.
+  - 📊 **Key Results:** Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual.
+  - 🚀 **Paradigm Shift:** AV-FABLE contains 16,650 pristine--manipulated twin pairs (998 hours) created with 27 editing configurations, with separate audio and visual timelines that enable modality-specific temporal localization and expose errors hidden by joint-timeline evaluation.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.31668](https://huggingface.co/papers/2610.31668) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.31668.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.33413](https://huggingface.co/papers/2610.33413) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.33413.pdf)
 
 ---
-### 2. UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents
-**🏛️ Source:** `arXiv / Hugging Face (47 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 2. Rollback: Experience Backtracking in World Models for Policy Improvement
+**🏛️ Source:** `arXiv / Hugging Face (27 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
 
 > **The Crux (Simple English):**  
-> Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions.
+> Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions.
-  - 📊 **Key Results:** Agentic recommendation pursues shopper goals through sequences of context-dependent decisions.
-  - 🚀 **Why It Matters:** Experiments show that OPTD achieves the strongest overall fidelity among the evaluated simulators under UserArena's evaluation protocol and most closely reproduces the production policy effect in offline simulation.
+  - 💡 **Core Innovation:** Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies.
+  - 📊 **Key Results:** However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures.
+  - 🚀 **Paradigm Shift:** However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.30932](https://huggingface.co/papers/2610.30932) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.30932.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.36068](https://huggingface.co/papers/2610.36068) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.36068.pdf)
 
 ---
-### 3. HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games
-**🏛️ Source:** `arXiv / Hugging Face (38 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 3. Representation Redistribution in Sparse Autoencoders
+**🏛️ Source:** `arXiv / Hugging Face (21 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities.
+> Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream computation.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** To bridge this gap, we propose HiSTEVE, a hierarchical VLA agent with a capability-aware agent harness.
-  - 📊 **Key Results:** Existing agents typically provide either native visuomotor control without long-horizon autonomy or high-level planning executed through environment APIs or predefined skills.
-  - 🚀 **Why It Matters:** HiSTEVE achieves state-of-the-art atomic-task performance, scoring 85.0% on MineStudio Bench and a 37.4% average success rate on OpenHA, while also completing long-horizon tasks such as crafting an iron pickaxe from scratch like human players.
+  - 💡 **Core Innovation:** Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them.
+  - 📊 **Key Results:** We introduce the redistribution sensitivity score (RSS), which identifies large feature responses that recur in a consistent direction, and evaluate the resulting supports on variants excluded from selection.
+  - 🚀 **Why It Matters:** RSS therefore provides a way to identify recurring sparse representation changes and quantify their contribution to a downstream readout without equating representation change with failure.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.31162](https://huggingface.co/papers/2610.31162) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.31162.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.21240](https://huggingface.co/papers/2610.21240) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.21240.pdf)
 
 ---
-### 4. RSIHub: A Composable Framework for Agent-Evolution Methods
-**🏛️ Source:** `arXiv / Hugging Face (34 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 4. ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence
+**🏛️ Source:** `arXiv / Hugging Face (20 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure.
+> Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; we call this observed specialization interface lock-in.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery.
-  - 📊 **Key Results:** Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery.
-  - 🚀 **Why It Matters:** RSIHub provides a common protocol for comparing evolution policies, inspectable candidate histories, and reusable components for developing new methods.
+  - 💡 **Core Innovation:** Adaptive frame selection then changes evidence access while keeping the trained model fixed, providing an additional inference-time gain at lower visual cost.
+  - 📊 **Key Results:** Under the same observation access, a single ChronoReplay checkpoint improves OVO-S-Bench, OST-Bench, and UCS-Bench together, including a 13.41-point gain on OST-Bench, and achieves the highest three-benchmark mean among the supervision settings compared here.
+  - 🚀 **Paradigm Shift:** Same-data controls further separate the ingredients of this transfer: answer serialization redistributes gains across OST and UCS, family-balanced learning improves over ordinary joint SFT and natural turn weighting, and chronological replay exceeds a shifted-order control by about 2.41 OST points across two paired seeds.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.32253](https://huggingface.co/papers/2610.32253) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.32253.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.34283](https://huggingface.co/papers/2610.34283) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.34283.pdf)
 
 ---
-### 5. RynnUnify: Towards Unified Embodied Brain
-**🏛️ Source:** `arXiv / Hugging Face (33 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 5. LociArt: A Unified Paradigm for Free-Style Local Video Stylization
+**🏛️ Source:** `arXiv / Hugging Face (18 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks.
+> Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning.
-  - 📊 **Key Results:** Building on these capabilities, we further develop an agentic extension through reinforcement learning to selectively use video predictions for reasoning about unobserved states and interaction outcomes.
-  - 🚀 **Why It Matters:** Together, these results establish RynnUnify as a shared foundation for embodied understanding, visual planning, and robot control, taking a step toward a unified embodied brain.
+  - 💡 **Core Innovation:** We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content.
+  - 📊 **Key Results:** We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content.
+  - 🚀 **Why It Matters:** Together, these components provide a unified foundation for learning and evaluating controllable local video stylization.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.32965](https://huggingface.co/papers/2610.32965) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.32965.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.36456](https://huggingface.co/papers/2610.36456) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.36456.pdf)
 
 ---
-### 6. Anthropic files S-1 with the SEC for proposed initial public offering
+### 6. Early progress on accelerating drug development with Claude
 **🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">Anthropic files S-1 with the SEC for proposed initial public offering</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+> <a href=" target="_blank">Early progress on accelerating drug development with Claude</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** <a href=" target="_blank">Anthropic files S-1 with the SEC for proposed initial public offering</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+  - 💡 **Core Innovation:** <a href=" target="_blank">Early progress on accelerating drug development with Claude</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
 
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiTkFVX3lxTFBnZUdLN3hwaXFFbndLU0FTMC1INVZzenp4cl92WXJqM3VDWTZUSXN2S1NTdzBjeTBDaUZmRHFud1M1azhBX3pmcFAxR3Nzdw?oc=5](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBnZUdLN3hwaXFFbndLU0FTMC1INVZzenp4cl92WXJqM3VDWTZUSXN2S1NTdzBjeTBDaUZmRHFud1M1azhBX3pmcFAxR3Nzdw?oc=5)
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbmplZ01nQUt5R0hldklCR3FRMlVWZy1RcFZlc1VpRDhVNk00Vzd0Mm5QdlNXb1NncmxTX1ZFZTl4Xzl5bkpqUU56OGVxWjlZWmN6SjM4cVFLX3dkU0RUNWJVQ1JZTUswTk1iSzJ1MGwyUldn?oc=5](https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbmplZ01nQUt5R0hldklCR3FRMlVWZy1RcFZlc1VpRDhVNk00Vzd0Mm5QdlNXb1NncmxTX1ZFZTl4Xzl5bkpqUU56OGVxWjlZWmN6SjM4cVFLX3dkU0RUNWJVQ1JZTUswTk1iSzJ1MGwyUldn?oc=5)
 
 ---
-### 7. Will the real Anthropic please stand up
+### 7. Industrial Intelligence: The next growth opportunity for manufacturing
 **🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.
+> Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** To get stories like this in your inbox first, sign up here.
-  - 📊 **Key Results:** To get stories like this in your inbox first, sign up here.
-  - 🚀 **Why It Matters:** The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it&#8230;
+  - 💡 **Core Innovation:** Some is documented, and some resides in the knowledge of experienced workers.
+  - 📊 **Key Results:** Some is documented, and some resides in the knowledge of experienced workers.
+  - 🚀 **Paradigm Shift:** The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor&#8230;
 
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/](https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/)
-
----
-### 8. The focus on AI safety disasters ignores everyday harms
-**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Alignment & Interpretability`
-
-> **The Crux (Simple English):**  
-> Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide.
-
-**Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** An AI company promises that its chatbot will not encourage suicide.
-  - 📊 **Key Results:** These are important protections, and they should have existed all along.
-  - 🚀 **Why It Matters:** But companies can clear these low bars while continuing to make products&#8230;
-
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/](https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/)
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/](https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/)
 
 
 ---

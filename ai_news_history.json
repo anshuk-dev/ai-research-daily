@@ -288,5 +288,115 @@
     "category": "Alignment & Interpretability",
     "score": 90,
     "discovered_at": "2026-10-27 02:23:23 IST"
+  },
+  "c8eb05f8bf1ef359": {
+    "id": "c8eb05f8bf1ef359",
+    "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+    "source": "arXiv / Hugging Face (39 upvotes)",
+    "url": "https://huggingface.co/papers/2610.33413",
+    "crux": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulations in open-scene long-form audio-visual videos.",
+      "📊 **Key Results:** Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual.",
+      "🚀 **Paradigm Shift:** AV-FABLE contains 16,650 pristine--manipulated twin pairs (998 hours) created with 27 editing configurations, with separate audio and visual timelines that enable modality-specific temporal localization and expose errors hidden by joint-timeline evaluation."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.33413.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 39,
+    "discovered_at": "2026-10-28 02:35:27 IST"
+  },
+  "405cdde1248b16cf": {
+    "id": "405cdde1248b16cf",
+    "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+    "source": "arXiv / Hugging Face (27 upvotes)",
+    "url": "https://huggingface.co/papers/2610.36068",
+    "crux": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures.",
+    "key_points": [
+      "💡 **Core Innovation:** Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies.",
+      "📊 **Key Results:** However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures.",
+      "🚀 **Paradigm Shift:** However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36068.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 27,
+    "discovered_at": "2026-10-28 02:35:27 IST"
+  },
+  "cb1628196cfcce93": {
+    "id": "cb1628196cfcce93",
+    "title": "Representation Redistribution in Sparse Autoencoders",
+    "source": "arXiv / Hugging Face (21 upvotes)",
+    "url": "https://huggingface.co/papers/2610.21240",
+    "crux": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream computation.",
+    "key_points": [
+      "💡 **Core Innovation:** Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them.",
+      "📊 **Key Results:** We introduce the redistribution sensitivity score (RSS), which identifies large feature responses that recur in a consistent direction, and evaluate the resulting supports on variants excluded from selection.",
+      "🚀 **Why It Matters:** RSS therefore provides a way to identify recurring sparse representation changes and quantify their contribution to a downstream readout without equating representation change with failure."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.21240.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 21,
+    "discovered_at": "2026-10-28 02:35:27 IST"
+  },
+  "44e8988712f04bd2": {
+    "id": "44e8988712f04bd2",
+    "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
+    "source": "arXiv / Hugging Face (20 upvotes)",
+    "url": "https://huggingface.co/papers/2610.34283",
+    "crux": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; we call this observed specialization interface lock-in.",
+    "key_points": [
+      "💡 **Core Innovation:** Adaptive frame selection then changes evidence access while keeping the trained model fixed, providing an additional inference-time gain at lower visual cost.",
+      "📊 **Key Results:** Under the same observation access, a single ChronoReplay checkpoint improves OVO-S-Bench, OST-Bench, and UCS-Bench together, including a 13.41-point gain on OST-Bench, and achieves the highest three-benchmark mean among the supervision settings compared here.",
+      "🚀 **Paradigm Shift:** Same-data controls further separate the ingredients of this transfer: answer serialization redistributes gains across OST and UCS, family-balanced learning improves over ordinary joint SFT and natural turn weighting, and chronological replay exceeds a shifted-order control by about 2.41 OST points across two paired seeds."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.34283.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 20,
+    "discovered_at": "2026-10-28 02:35:27 IST"
+  },
+  "67b2c1954d00fb6c": {
+    "id": "67b2c1954d00fb6c",
+    "title": "LociArt: A Unified Paradigm for Free-Style Local Video Stylization",
+    "source": "arXiv / Hugging Face (18 upvotes)",
+    "url": "https://huggingface.co/papers/2610.36456",
+    "crux": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content.",
+      "📊 **Key Results:** We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content.",
+      "🚀 **Why It Matters:** Together, these components provide a unified foundation for learning and evaluating controllable local video stylization."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36456.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 18,
+    "discovered_at": "2026-10-28 02:35:27 IST"
+  },
+  "84655cc0cc920668": {
+    "id": "84655cc0cc920668",
+    "title": "Early progress on accelerating drug development with Claude",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbmplZ01nQUt5R0hldklCR3FRMlVWZy1RcFZlc1VpRDhVNk00Vzd0Mm5QdlNXb1NncmxTX1ZFZTl4Xzl5bkpqUU56OGVxWjlZWmN6SjM4cVFLX3dkU0RUNWJVQ1JZTUswTk1iSzJ1MGwyUldn?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Early progress on accelerating drug development with Claude</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [
+      "💡 **Core Innovation:** <a href=\" target=\"_blank\">Early progress on accelerating drug development with Claude</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-10-28 02:35:28 IST"
+  },
+  "91d4cccd74c62107": {
+    "id": "91d4cccd74c62107",
+    "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+    "crux": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers.",
+    "key_points": [
+      "💡 **Core Innovation:** Some is documented, and some resides in the knowledge of experienced workers.",
+      "📊 **Key Results:** Some is documented, and some resides in the knowledge of experienced workers.",
+      "🚀 **Paradigm Shift:** The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-10-28 02:35:29 IST"
   }
 }
