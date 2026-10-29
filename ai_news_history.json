@@ -398,5 +398,111 @@
     "category": "Frontier AI Research",
     "score": 90,
     "discovered_at": "2026-10-28 02:35:29 IST"
+  },
+  "ba651b8fa6a86b3a": {
+    "id": "ba651b8fa6a86b3a",
+    "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+    "source": "arXiv / Hugging Face (533 upvotes)",
+    "url": "https://huggingface.co/papers/2610.36077",
+    "crux": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity.",
+    "key_points": [
+      "💡 **Core Innovation:** We therefore introduce The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution through three roles: Creator, Explorer, and Evolver.",
+      "📊 **Key Results:** However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity.",
+      "🚀 **Paradigm Shift:** Drawing on verified execution trajectories, Evolver shifts the basis of task organization from surface categories to shared requirements, reorganizing the original task tree into a hierarchical capability tree."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36077.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 533,
+    "discovered_at": "2026-10-29 02:39:03 IST"
+  },
+  "2817dfe18e4bbd08": {
+    "id": "2817dfe18e4bbd08",
+    "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+    "source": "arXiv / Hugging Face (373 upvotes)",
+    "url": "https://huggingface.co/papers/2610.35013",
+    "crux": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens.",
+    "key_points": [
+      "💡 **Core Innovation:** We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align credit assignment and policy updates at the turn scale.",
+      "📊 **Key Results:** Extensive experiments across search, tool-use, and automation tasks with 4B and 30B-A3B models demonstrate consistent gains over strong RL baselines.",
+      "🚀 **Paradigm Shift:** Extensive experiments across search, tool-use, and automation tasks with 4B and 30B-A3B models demonstrate consistent gains over strong RL baselines."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35013.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 373,
+    "discovered_at": "2026-10-29 02:39:03 IST"
+  },
+  "e26cac9667831c43": {
+    "id": "e26cac9667831c43",
+    "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+    "source": "arXiv / Hugging Face (250 upvotes)",
+    "url": "https://huggingface.co/papers/2610.35201",
+    "crux": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance.",
+    "key_points": [
+      "💡 **Core Innovation:** Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement.",
+      "📊 **Key Results:** Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement.",
+      "🚀 **Why It Matters:** Experiments on LLaDA-8B-Instruct show that DTCA consistently improves mathematical reasoning performance across different generation budgets, with gains of up to 9.0 points on MATH500 and 5.3 points on GSM8K over the base model."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35201.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 250,
+    "discovered_at": "2026-10-29 02:39:03 IST"
+  },
+  "e7ec1c0b73bdb084": {
+    "id": "e7ec1c0b73bdb084",
+    "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+    "source": "arXiv / Hugging Face (173 upvotes)",
+    "url": "https://huggingface.co/papers/2610.35864",
+    "crux": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound.",
+    "key_points": [
+      "💡 **Core Innovation:** Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events.",
+      "📊 **Key Results:** Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events.",
+      "🚀 **Why It Matters:** The judges' ranking of the systems closely matches blind human preferences."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.35864.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 173,
+    "discovered_at": "2026-10-29 02:39:03 IST"
+  },
+  "172eb78e8d7c51c8": {
+    "id": "172eb78e8d7c51c8",
+    "title": "AI for Science expands to foundations and research institutions",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTE8xTmRrRUZtQndpOVdCTUFQQ2ZXSjl5Tk4zeXB0RzhSVzRYaUt3S091Y3FmRnVvT1c0UXhIVW0xZF83R2c1VUwtNjhNUkcxYWI0MFRXWXcxT2ZLdkF6bUd5V0JpTWJla3BzOWNORmdFN0ZTUkplbmZRcjRNdm5GSUVDUXp5QWwxNkRoN3JCVXo?oc=5",
+    "crux": "<a href=\" target=\"_blank\">AI for Science expands to foundations and research institutions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [
+      "📊 **Key Results:** <a href=\" target=\"_blank\">AI for Science expands to foundations and research institutions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-10-29 02:39:04 IST"
+  },
+  "9891d66181114ce8": {
+    "id": "9891d66181114ce8",
+    "title": "Creating AI value with enterprise context",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+    "crux": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond.",
+    "key_points": [
+      "💡 **Core Innovation:** Each one is sophisticated, advanced, and quick to respond.",
+      "📊 **Key Results:** Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools.",
+      "🚀 **Why It Matters:** But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-10-29 02:39:05 IST"
+  },
+  "30c4c03921097d80": {
+    "id": "30c4c03921097d80",
+    "title": "Pairing industrial AI autonomy and human control",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+    "crux": "Pairing industrial AI autonomy and human control",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-10-29 02:39:05 IST"
   }
 }
