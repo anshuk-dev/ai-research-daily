@@ -504,5 +504,78 @@
     "category": "Frontier AI Research",
     "score": 90,
     "discovered_at": "2026-10-29 02:39:05 IST"
+  },
+  "dd1047bee6736cc5": {
+    "id": "dd1047bee6736cc5",
+    "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+    "source": "arXiv / Hugging Face (150 upvotes)",
+    "url": "https://huggingface.co/papers/2610.32749",
+    "crux": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps.",
+    "key_points": [
+      "💡 **Core Innovation:** Second, high-performance causal architectures are too heavy for edge deployment.",
+      "📊 **Key Results:** Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications.",
+      "🚀 **Why It Matters:** Code and demo are available at"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.32749.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 150,
+    "discovered_at": "2026-10-30 02:37:31 IST"
+  },
+  "7223e511213d8295": {
+    "id": "7223e511213d8295",
+    "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+    "source": "arXiv / Hugging Face (148 upvotes)",
+    "url": "https://huggingface.co/papers/2610.37381",
+    "crux": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop.",
+    "key_points": [
+      "💡 **Core Innovation:** Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited.",
+      "📊 **Key Results:** We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features to condition action generation without online video generation.",
+      "🚀 **Paradigm Shift:** Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37381.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 148,
+    "discovered_at": "2026-10-30 02:37:31 IST"
+  },
+  "493408143a1f5b97": {
+    "id": "493408143a1f5b97",
+    "title": "Genie 4: A new generation of world simulation",
+    "source": "Google DeepMind",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OSHE1Q2pvLWgzQk5SaDNUVjcwWnpNLUoteDhJZVRLU3RPZjFhX2dtSGdSRW9OVGdLbUZRQ2dyd3pMeWRqNEtUM080azFBX2l6RGZCd2diZkxYU19LSE9HNUNoTUFHa3NLMUN4SjhwMmRXdFFHVW1hVEpsZkxnWTA?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Genie 4: A new generation of world simulation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Google DeepMind</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-10-30 02:37:32 IST"
+  },
+  "a206e85faf4e6a9d": {
+    "id": "a206e85faf4e6a9d",
+    "title": "How we detect frontier model misalignment",
+    "source": "OpenAI Research",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIYy1GQVhzVjQ3LTAyVW42QnlOOVZISGJsS05mc0gtRG5WZ2lkVks0REVvcENkYXVPVW1sVUw3dThYY01Ib1FCTUNkanBCMXduYTdGUXFqREdFYUdtVVhsN0ZtT2VoSWJlandTbUxvSVh1OUgxMWc?oc=5",
+    "crux": "<a href=\" target=\"_blank\">How we detect frontier model misalignment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OpenAI</font>",
+    "key_points": [
+      "💡 **Core Innovation:** <a href=\" target=\"_blank\">How we detect frontier model misalignment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OpenAI</font>"
+    ],
+    "pdf_url": null,
+    "category": "Alignment & Interpretability",
+    "score": 95,
+    "discovered_at": "2026-10-30 02:37:32 IST"
+  },
+  "1e02719bb21382ca": {
+    "id": "1e02719bb21382ca",
+    "title": "We urgently need to monitor AI agents’ actions in real time",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+    "crux": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded.",
+    "key_points": [
+      "💡 **Core Innovation:** They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded.",
+      "🚀 **Why It Matters:** Around the same time, another OpenAI agent accessed private files from an Australian government website."
+    ],
+    "pdf_url": null,
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 90,
+    "discovered_at": "2026-10-30 02:37:33 IST"
   }
 }
