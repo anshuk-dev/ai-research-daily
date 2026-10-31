@@ -3,76 +3,81 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `30 October 2026`  
+**Latest Edition:** `31 October 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes
-**🏛️ Source:** `arXiv / Hugging Face (150 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 1. Intrinsic Distribution Matching
+**🏛️ Source:** `arXiv / Hugging Face (238 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps.
+> One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Second, high-performance causal architectures are too heavy for edge deployment.
-  - 📊 **Key Results:** Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications.
-  - 🚀 **Why It Matters:** Code and demo are available at
+  - 💡 **Core Innovation:** We introduce Intrinsic Distribution Matching (IDM), which retains the full DMD correction and matches feature means and per-coordinate standard deviations using the generator's exponential-moving-average (EMA) copy, requiring no external feature encoder.
+  - 📊 **Key Results:** One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement.
+  - 🚀 **Why It Matters:** Controlled ablations show gains from the added moment loss, while generator EMA features perform competitively with an external DINOv2 encoder across the five reported metrics.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.32749](https://huggingface.co/papers/2610.32749) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.32749.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.39633](https://huggingface.co/papers/2610.39633) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.39633.pdf)
 
 ---
-### 2. PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations
-**🏛️ Source:** `arXiv / Hugging Face (148 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 2. A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement
+**🏛️ Source:** `arXiv / Hugging Face (157 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop.
+> Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited.
-  - 📊 **Key Results:** We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features to condition action generation without online video generation.
-  - 🚀 **Paradigm Shift:** Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop.
+  - 💡 **Core Innovation:** Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful.
+  - 📊 **Key Results:** Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful.
+  - 🚀 **Why It Matters:** On the primary eleven-benchmark suite, A-RSI raises the performance average from 57.77 to 61.05 with 800 fresh tasks.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.37381](https://huggingface.co/papers/2610.37381) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.37381.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.38568](https://huggingface.co/papers/2610.38568) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.38568.pdf)
 
 ---
-### 3. Genie 4: A new generation of world simulation
-**🏛️ Source:** `Google DeepMind` &bull; **🏷️ Pillar:** `Frontier AI Research`
+### 3. Your Benchmark Is an Empirical Measure Over Difficulty
+**🏛️ Source:** `arXiv / Hugging Face (143 upvotes)` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">Genie 4: A new generation of world simulation</a>&nbsp;&nbsp;<font color="#6f6f6f">Google DeepMind</font>
+> A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation.
 
 **Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** In this work, we develop this measure-based view of benchmark evaluation.
+  - 📊 **Key Results:** A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty.
+  - 🚀 **Why It Matters:** Finally, we turn diagnosis into action by introducing BenchFill, a simple difficulty-targeted item rewriting algorithm that effectively reduces local coverage gaps.
 
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMif0FVX3lxTE5OSHE1Q2pvLWgzQk5SaDNUVjcwWnpNLUoteDhJZVRLU3RPZjFhX2dtSGdSRW9OVGdLbUZRQ2dyd3pMeWRqNEtUM080azFBX2l6RGZCd2diZkxYU19LSE9HNUNoTUFHa3NLMUN4SjhwMmRXdFFHVW1hVEpsZkxnWTA?oc=5](https://news.google.com/rss/articles/CBMif0FVX3lxTE5OSHE1Q2pvLWgzQk5SaDNUVjcwWnpNLUoteDhJZVRLU3RPZjFhX2dtSGdSRW9OVGdLbUZRQ2dyd3pMeWRqNEtUM080azFBX2l6RGZCd2diZkxYU19LSE9HNUNoTUFHa3NLMUN4SjhwMmRXdFFHVW1hVEpsZkxnWTA?oc=5)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.29927](https://huggingface.co/papers/2610.29927) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.29927.pdf)
 
 ---
-### 4. How we detect frontier model misalignment
-**🏛️ Source:** `OpenAI Research` &bull; **🏷️ Pillar:** `Alignment & Interpretability`
+### 4. Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs
+**🏛️ Source:** `arXiv / Hugging Face (91 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">How we detect frontier model misalignment</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
+> Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** <a href=" target="_blank">How we detect frontier model misalignment</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
+  - 💡 **Core Innovation:** Diffusion vision-language models (DVLMs) process their entire input at every denoising step.
+  - 📊 **Key Results:** Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image.
+  - 🚀 **Why It Matters:** Code and project page are available at
 
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMidkFVX3lxTFBIYy1GQVhzVjQ3LTAyVW42QnlOOVZISGJsS05mc0gtRG5WZ2lkVks0REVvcENkYXVPVW1sVUw3dThYY01Ib1FCTUNkanBCMXduYTdGUXFqREdFYUdtVVhsN0ZtT2VoSWJlandTbUxvSVh1OUgxMWc?oc=5](https://news.google.com/rss/articles/CBMidkFVX3lxTFBIYy1GQVhzVjQ3LTAyVW42QnlOOVZISGJsS05mc0gtRG5WZ2lkVks0REVvcENkYXVPVW1sVUw3dThYY01Ib1FCTUNkanBCMXduYTdGUXFqREdFYUdtVVhsN0ZtT2VoSWJlandTbUxvSVh1OUgxMWc?oc=5)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.36671](https://huggingface.co/papers/2610.36671) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.36671.pdf)
 
 ---
-### 5. We urgently need to monitor AI agents’ actions in real time
-**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 5. Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities
+**🏛️ Source:** `arXiv / Hugging Face (57 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded.
+> We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded.
-  - 🚀 **Why It Matters:** Around the same time, another OpenAI agent accessed private files from an Australian government website.
+  - 💡 **Core Innovation:** We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities.
+  - 📊 **Key Results:** Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordinate system, and a few fusion layers let video frames attend to concurrent audio, bringing cross-modal fusion and temporal alignment into perception itself.
+  - 🚀 **Why It Matters:** Code and model weights are publicly available.
 
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.39301](https://huggingface.co/papers/2610.39301) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.39301.pdf)
 
 
 ---
