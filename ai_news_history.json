@@ -657,5 +657,49 @@
     "category": "Autonomous Agents & Self-Improvement",
     "score": 57,
     "discovered_at": "2026-10-31 02:38:39 IST"
+  },
+  "a77e7c867afad54f": {
+    "id": "a77e7c867afad54f",
+    "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+    "source": "arXiv / Hugging Face (58 upvotes)",
+    "url": "https://huggingface.co/papers/2610.39302",
+    "crux": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe.",
+    "key_points": [
+      "💡 **Core Innovation:** Whether models trained on different modalities converge to the same representation of the world is central to AI.",
+      "📊 **Key Results:** Second, we show that next-token prediction is a JEPA with bad views, parts of a single document, which explains why language models align with vision only through scale.",
+      "🚀 **Why It Matters:** Positive views, and not scale alone, are thus the lever to build platonic representations."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.39302.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 58,
+    "discovered_at": "2026-11-01 02:38:49 IST"
+  },
+  "e357141f344e86c1": {
+    "id": "e357141f344e86c1",
+    "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+    "source": "arXiv / Hugging Face (38 upvotes)",
+    "url": "https://huggingface.co/papers/2610.40614",
+    "crux": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream.",
+    "key_points": [
+      "💡 **Core Innovation:** Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging.",
+      "📊 **Key Results:** Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging.",
+      "🚀 **Why It Matters:** Experiments show that L3G-World achieves state-of-the-art generation quality and long-horizon spatial consistency, with up to 38.6times fewer 3D primitives, 3.2times faster memory updates, and 359times faster memory rendering relative to the most efficient prior 3D-memory baseline for each metric, enabling real-time world generation at 9 FPS."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.40614.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 38,
+    "discovered_at": "2026-11-01 02:38:49 IST"
+  },
+  "b443435c53a0c517": {
+    "id": "b443435c53a0c517",
+    "title": "AI FOR GOOD",
+    "source": "Meta AI Research",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA2T1lsVTZfMUZiUS1GV19SZjQ5MzRjcWtRdVAyblFZQlBPb2trcVhvRU53YXI2MmJfMWJqenRMR1NJNUVnYkYw?oc=5",
+    "crux": "<a href=\" target=\"_blank\">AI FOR GOOD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI at Meta</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-01 02:38:50 IST"
   }
 }
