@@ -701,5 +701,21 @@
     "category": "Frontier AI Research",
     "score": 95,
     "discovered_at": "2026-11-01 02:38:50 IST"
+  },
+  "435fc00327517f6e": {
+    "id": "435fc00327517f6e",
+    "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+    "source": "arXiv / Hugging Face (38 upvotes)",
+    "url": "https://huggingface.co/papers/2610.37161",
+    "crux": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision.",
+    "key_points": [
+      "💡 **Core Innovation:** We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks.",
+      "📊 **Key Results:** Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations.",
+      "🚀 **Why It Matters:** The data and models are available at"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.37161.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 38,
+    "discovered_at": "2026-11-02 02:42:28 IST"
   }
 }
