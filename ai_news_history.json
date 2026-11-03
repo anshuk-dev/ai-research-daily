@@ -717,5 +717,111 @@
     "category": "Autonomous Agents & Self-Improvement",
     "score": 38,
     "discovered_at": "2026-11-02 02:42:28 IST"
+  },
+  "1cafc14ee6bd7d82": {
+    "id": "1cafc14ee6bd7d82",
+    "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+    "source": "arXiv / Hugging Face (112 upvotes)",
+    "url": "https://huggingface.co/papers/2610.36545",
+    "crux": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions.",
+    "key_points": [
+      "💡 **Core Innovation:** Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance.",
+      "📊 **Key Results:** Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance.",
+      "🚀 **Why It Matters:** Experiments on DreamBench, COCO2017, and GEdit-Bench show that FrameForge achieves superior performance in subject-driven generation, canny-to-image generation, and image editing among the compared methods."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.36545.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 112,
+    "discovered_at": "2026-11-03 02:40:24 IST"
+  },
+  "987329b8f3f70d93": {
+    "id": "987329b8f3f70d93",
+    "title": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+    "source": "arXiv / Hugging Face (90 upvotes)",
+    "url": "https://huggingface.co/papers/2610.22740",
+    "crux": "In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score.",
+    "key_points": [
+      "💡 **Core Innovation:** To address these challenges, we propose R^2Orch, a new paradigm of Recursive Self-Play Orchestration: an inner loop of self-play that improves the orchestrator on self-chosen tasks, and an outer loop that improves how the inner loop improves.",
+      "📊 **Key Results:** In recent years, agentic orchestration has been widely applied to solve complex human tasks.",
+      "🚀 **Why It Matters:** Experimental results on twelve datasets show that R^2Orch consistently outperforms baselines across question answering, math, code, and interactive tasks."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.22740.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 90,
+    "discovered_at": "2026-11-03 02:40:24 IST"
+  },
+  "08028bc2420b2cfe": {
+    "id": "08028bc2420b2cfe",
+    "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+    "source": "arXiv / Hugging Face (61 upvotes)",
+    "url": "https://huggingface.co/papers/2610.39497",
+    "crux": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on those worth their cost.",
+    "key_points": [
+      "💡 **Core Innovation:** Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents.",
+      "📊 **Key Results:** Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents.",
+      "🚀 **Paradigm Shift:** Under ideal screening and equal execution costs, execution compute falls by a factor approaching 1/ρ_u, where ρ_u is the density of utility-relevant interactions (cost-weighted when costs differ); prediction errors, exploration, and distribution shift reduce the saving."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.39497.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 61,
+    "discovered_at": "2026-11-03 02:40:24 IST"
+  },
+  "0846b7a0051f3191": {
+    "id": "0846b7a0051f3191",
+    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "source": "arXiv / Hugging Face (44 upvotes)",
+    "url": "https://huggingface.co/papers/2610.42053",
+    "crux": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.",
+    "key_points": [
+      "💡 **Core Innovation:** Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers.",
+      "📊 **Key Results:** Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.",
+      "🚀 **Paradigm Shift:** These results demonstrate learned and programmatic policies operating within the same runtime."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.42053.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 44,
+    "discovered_at": "2026-11-03 02:40:24 IST"
+  },
+  "d4e5f047edcbe78e": {
+    "id": "d4e5f047edcbe78e",
+    "title": "Introducing SAM 3D: Powerful 3D Reconstruction for Physical World Images",
+    "source": "Meta AI Research",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ZNjlIbHBkVnNzZER5X1J3MWkxYl8zNmM4STdsRXgta2tLLXVtd0ZyUEFKWDNpRFZuRDBHTHd1UUNKaWROZnYw?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Introducing SAM 3D: Powerful 3D Reconstruction for Physical World Images</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI at Meta</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-03 02:40:26 IST"
+  },
+  "6ccf8427da5da7cf": {
+    "id": "6ccf8427da5da7cf",
+    "title": "Raising the quality of insights in agentic analytics",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+    "crux": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights.",
+    "key_points": [
+      "💡 **Core Innovation:** Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights.",
+      "🚀 **Why It Matters:** But there is a problem: The quality of insights that agents currently generate&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 90,
+    "discovered_at": "2026-11-03 02:40:26 IST"
+  },
+  "cdd777ec3e28ab3a": {
+    "id": "cdd777ec3e28ab3a",
+    "title": "Stop counting tokens, start counting what ships",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+    "crux": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors.",
+    "key_points": [
+      "💡 **Core Innovation:** When a developer gives an AI agent a coding task, the agent does more than answer once.",
+      "🚀 **Why It Matters:** The more useful the agent becomes, the more calls&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 90,
+    "discovered_at": "2026-11-03 02:40:26 IST"
   }
 }
