@@ -823,5 +823,129 @@
     "category": "Autonomous Agents & Self-Improvement",
     "score": 90,
     "discovered_at": "2026-11-03 02:40:26 IST"
+  },
+  "db5fb528f5e40709": {
+    "id": "db5fb528f5e40709",
+    "title": "Advances in Agentic Computer Graphics",
+    "source": "arXiv / Hugging Face (111 upvotes)",
+    "url": "https://huggingface.co/papers/2611.01860",
+    "crux": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback.",
+    "key_points": [
+      "💡 **Core Innovation:** Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback.",
+      "📊 **Key Results:** This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks.",
+      "🚀 **Why It Matters:** Building on these contributions, we analyze emerging research trends and discuss open challenges in coordinating agents and tools across graphics tasks, designing interfaces and representations for human-agent collaboration, sustaining long-horizon planning and refinement, and reliably evaluating interactive graphics systems."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.01860.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 111,
+    "discovered_at": "2026-11-04 02:39:13 IST"
+  },
+  "6e1a324a36607831": {
+    "id": "6e1a324a36607831",
+    "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+    "source": "arXiv / Hugging Face (110 upvotes)",
+    "url": "https://huggingface.co/papers/2611.00859",
+    "crux": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift.",
+    "key_points": [
+      "💡 **Core Innovation:** Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift.",
+      "📊 **Key Results:** Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift.",
+      "🚀 **Why It Matters:** In DiT-only tests with matched SageAttention+W8A8 backends, denoising steps, and GPU counts, WP delivers up to 2.53x the throughput of the faster of the Ulysses and Ring context-parallel baselines across six model scales (1.3B-14B)."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.00859.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 110,
+    "discovered_at": "2026-11-04 02:39:13 IST"
+  },
+  "5d4ff4b9e19ffd2c": {
+    "id": "5d4ff4b9e19ffd2c",
+    "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+    "source": "arXiv / Hugging Face (94 upvotes)",
+    "url": "https://huggingface.co/papers/2611.03126",
+    "crux": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns.",
+    "key_points": [
+      "💡 **Core Innovation:** Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data.",
+      "📊 **Key Results:** Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns.",
+      "🚀 **Paradigm Shift:** To enable efficient and reliable trajectory collection, we further introduce a feedback-guided snapshot-rollback retry mechanism in various real environments."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.03126.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 94,
+    "discovered_at": "2026-11-04 02:39:13 IST"
+  },
+  "74db8ff40d17c8a8": {
+    "id": "74db8ff40d17c8a8",
+    "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+    "source": "arXiv / Hugging Face (89 upvotes)",
+    "url": "https://huggingface.co/papers/2611.03178",
+    "crux": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decides actions, delegation, and acceptance, while the runtime maintains state and feedback.",
+      "📊 **Key Results:** However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge.",
+      "🚀 **Paradigm Shift:** Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.03178.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 89,
+    "discovered_at": "2026-11-04 02:39:13 IST"
+  },
+  "c9cd7fa9d73ad57a": {
+    "id": "c9cd7fa9d73ad57a",
+    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+    "source": "arXiv / Hugging Face (70 upvotes)",
+    "url": "https://huggingface.co/papers/2610.40191",
+    "crux": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents.",
+    "key_points": [
+      "💡 **Core Innovation:** In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents.",
+      "📊 **Key Results:** We study their intersection through the agent harness: an executable runtime that constructs context, exposes tools, maintains state, routes feedback, and manages budgets around video models.",
+      "🚀 **Paradigm Shift:** Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.40191.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 70,
+    "discovered_at": "2026-11-04 02:39:13 IST"
+  },
+  "e05caaea32611d5a": {
+    "id": "e05caaea32611d5a",
+    "title": "Progress on provable inference for large language models",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Progress on provable inference for large language models</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [
+      "💡 **Core Innovation:** <a href=\" target=\"_blank\">Progress on provable inference for large language models</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-04 02:39:13 IST"
+  },
+  "f6d363b25ec1e4ba": {
+    "id": "f6d363b25ec1e4ba",
+    "title": "How “reverse game theory” could keep AI agents in check",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+    "crux": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,&#8230;",
+    "key_points": [
+      "💡 **Core Innovation:** A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules."
+    ],
+    "pdf_url": null,
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 90,
+    "discovered_at": "2026-11-04 02:39:14 IST"
+  },
+  "0f098c172a5902f3": {
+    "id": "0f098c172a5902f3",
+    "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+    "crux": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
+    "key_points": [
+      "💡 **Core Innovation:** To get stories like this in your inbox first, sign up here.",
+      "📊 **Key Results:** To get stories like this in your inbox first, sign up here.",
+      "🚀 **Why It Matters:** At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-04 02:39:14 IST"
   }
 }

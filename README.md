@@ -3,105 +3,119 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `03 November 2026`  
+**Latest Edition:** `04 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation
-**🏛️ Source:** `arXiv / Hugging Face (112 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 1. Advances in Agentic Computer Graphics
+**🏛️ Source:** `arXiv / Hugging Face (111 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions.
+> Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance.
-  - 📊 **Key Results:** Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance.
-  - 🚀 **Why It Matters:** Experiments on DreamBench, COCO2017, and GEdit-Bench show that FrameForge achieves superior performance in subject-driven generation, canny-to-image generation, and image editing among the compared methods.
+  - 💡 **Core Innovation:** Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback.
+  - 📊 **Key Results:** This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks.
+  - 🚀 **Why It Matters:** Building on these contributions, we analyze emerging research trends and discuss open challenges in coordinating agents and tools across graphics tasks, designing interfaces and representations for human-agent collaboration, sustaining long-horizon planning and refinement, and reliably evaluating interactive graphics systems.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.36545](https://huggingface.co/papers/2610.36545) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.36545.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.01860](https://huggingface.co/papers/2611.01860) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.01860.pdf)
 
 ---
-### 2. R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop
-**🏛️ Source:** `arXiv / Hugging Face (90 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 2. Wave Forcing: Towards Speed-of-Light Streaming Video Generation
+**🏛️ Source:** `arXiv / Hugging Face (110 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
 
 > **The Crux (Simple English):**  
-> In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score.
+> Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** To address these challenges, we propose R^2Orch, a new paradigm of Recursive Self-Play Orchestration: an inner loop of self-play that improves the orchestrator on self-chosen tasks, and an outer loop that improves how the inner loop improves.
-  - 📊 **Key Results:** In recent years, agentic orchestration has been widely applied to solve complex human tasks.
-  - 🚀 **Why It Matters:** Experimental results on twelve datasets show that R^2Orch consistently outperforms baselines across question answering, math, code, and interactive tasks.
+  - 💡 **Core Innovation:** Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift.
+  - 📊 **Key Results:** Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift.
+  - 🚀 **Why It Matters:** In DiT-only tests with matched SageAttention+W8A8 backends, denoising steps, and GPU counts, WP delivers up to 2.53x the throughput of the faster of the Ulysses and Ring context-parallel baselines across six model scales (1.3B-14B).
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.22740](https://huggingface.co/papers/2610.22740) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.22740.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.00859](https://huggingface.co/papers/2611.00859) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.00859.pdf)
 
 ---
-### 3. Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?
-**🏛️ Source:** `arXiv / Hugging Face (61 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 3. CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements
+**🏛️ Source:** `arXiv / Hugging Face (94 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on those worth their cost.
+> Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents.
-  - 📊 **Key Results:** Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents.
-  - 🚀 **Paradigm Shift:** Under ideal screening and equal execution costs, execution compute falls by a factor approaching 1/ρ_u, where ρ_u is the density of utility-relevant interactions (cost-weighted when costs differ); prediction errors, exploration, and distribution shift reduce the saving.
+  - 💡 **Core Innovation:** Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data.
+  - 📊 **Key Results:** Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns.
+  - 🚀 **Paradigm Shift:** To enable efficient and reliable trajectory collection, we further introduce a feedback-guided snapshot-rollback retry mechanism in various real environments.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.39497](https://huggingface.co/papers/2610.39497) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.39497.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.03126](https://huggingface.co/papers/2611.03126) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.03126.pdf)
 
 ---
-### 4. REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control
-**🏛️ Source:** `arXiv / Hugging Face (44 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 4. CoworkOS:Scaling Agent Coworkers for Real-world Automation
+**🏛️ Source:** `arXiv / Hugging Face (89 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.
+> Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers.
-  - 📊 **Key Results:** Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.
-  - 🚀 **Paradigm Shift:** These results demonstrate learned and programmatic policies operating within the same runtime.
+  - 💡 **Core Innovation:** We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decides actions, delegation, and acceptance, while the runtime maintains state and feedback.
+  - 📊 **Key Results:** However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge.
+  - 🚀 **Paradigm Shift:** Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.42053](https://huggingface.co/papers/2610.42053) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.42053.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.03178](https://huggingface.co/papers/2611.03178) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.03178.pdf)
 
 ---
-### 5. Introducing SAM 3D: Powerful 3D Reconstruction for Physical World Images
-**🏛️ Source:** `Meta AI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
+### 5. Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement
+**🏛️ Source:** `arXiv / Hugging Face (70 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">Introducing SAM 3D: Powerful 3D Reconstruction for Physical World Images</a>&nbsp;&nbsp;<font color="#6f6f6f">AI at Meta</font>
+> Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents.
 
 **Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents.
+  - 📊 **Key Results:** We study their intersection through the agent harness: an executable runtime that constructs context, exposes tools, maintains state, routes feedback, and manages budgets around video models.
+  - 🚀 **Paradigm Shift:** Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos.
 
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ZNjlIbHBkVnNzZER5X1J3MWkxYl8zNmM4STdsRXgta2tLLXVtd0ZyUEFKWDNpRFZuRDBHTHd1UUNKaWROZnYw?oc=5](https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ZNjlIbHBkVnNzZER5X1J3MWkxYl8zNmM4STdsRXgta2tLLXVtd0ZyUEFKWDNpRFZuRDBHTHd1UUNKaWROZnYw?oc=5)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.40191](https://huggingface.co/papers/2610.40191) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.40191.pdf)
 
 ---
-### 6. Raising the quality of insights in agentic analytics
+### 6. Progress on provable inference for large language models
+**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
+
+> **The Crux (Simple English):**  
+> <a href=" target="_blank">Progress on provable inference for large language models</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+
+**Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** <a href=" target="_blank">Progress on provable inference for large language models</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5)
+
+---
+### 7. How “reverse game theory” could keep AI agents in check
 **🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights.
+> A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,&#8230;
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights.
-  - 🚀 **Why It Matters:** But there is a problem: The quality of insights that agents currently generate&#8230;
+  - 💡 **Core Innovation:** A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules.
 
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/](https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/)
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/](https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/)
 
 ---
-### 7. Stop counting tokens, start counting what ships
-**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 8. Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test
+**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors.
+> This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** When a developer gives an AI agent a coding task, the agent does more than answer once.
-  - 🚀 **Why It Matters:** The more useful the agent becomes, the more calls&#8230;
+  - 💡 **Core Innovation:** To get stories like this in your inbox first, sign up here.
+  - 📊 **Key Results:** To get stories like this in your inbox first, sign up here.
+  - 🚀 **Why It Matters:** At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That&#8230;
 
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/](https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/)
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/](https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/)
 
 
 ---
