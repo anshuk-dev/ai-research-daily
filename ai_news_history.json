@@ -947,5 +947,152 @@
     "category": "Frontier AI Research",
     "score": 90,
     "discovered_at": "2026-11-04 02:39:14 IST"
+  },
+  "469a1da1008529ce": {
+    "id": "469a1da1008529ce",
+    "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+    "source": "arXiv / Hugging Face (86 upvotes)",
+    "url": "https://huggingface.co/papers/2611.05275",
+    "crux": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system.",
+    "key_points": [
+      "💡 **Core Innovation:** Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities.",
+      "📊 **Key Results:** To systematically investigate routing across diverse capabilities, we first construct an omni-modal trajectory matrix spanning 25 benchmarks across language understanding, image, video, and speech generation, coding and workplace agents, and robotic manipulation, comprising 374,401 scored runs from 452 candidate configurations.",
+      "🚀 **Why It Matters:** More importantly, routing raises efficiency by 8.82x on average compared with the reference model."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.05275.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 86,
+    "discovered_at": "2026-11-05 02:46:40 IST"
+  },
+  "08f070721e08de59": {
+    "id": "08f070721e08de59",
+    "title": "Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy",
+    "source": "arXiv / Hugging Face (69 upvotes)",
+    "url": "https://huggingface.co/papers/2611.00617",
+    "crux": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants.",
+    "key_points": [
+      "💡 **Core Innovation:** Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants.",
+      "📊 **Key Results:** Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust.",
+      "🚀 **Why It Matters:** These results support explicit expression planning in client simulation to improve alignment with individual language patterns and reduce perceived AI-like expression in the evaluated setting."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.00617.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 69,
+    "discovered_at": "2026-11-05 02:46:40 IST"
+  },
+  "e44c5708c6a18d29": {
+    "id": "e44c5708c6a18d29",
+    "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+    "source": "arXiv / Hugging Face (65 upvotes)",
+    "url": "https://huggingface.co/papers/2611.04814",
+    "crux": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state.",
+    "key_points": [
+      "💡 **Core Innovation:** Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained.",
+      "📊 **Key Results:** Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained.",
+      "🚀 **Why It Matters:** The code and model will be publicly released at"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.04814.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 65,
+    "discovered_at": "2026-11-05 02:46:40 IST"
+  },
+  "7afc25b0d55be241": {
+    "id": "7afc25b0d55be241",
+    "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+    "source": "arXiv / Hugging Face (52 upvotes)",
+    "url": "https://huggingface.co/papers/2611.04916",
+    "crux": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling.",
+    "key_points": [
+      "💡 **Core Innovation:** Kling-MLLM, a shared multimodal foundation model that unifies image, video, audio, synchronized audio--video, and interleaved inputs, is specialized for each downstream module.",
+      "📊 **Key Results:** We argue that generation quality is the projection of multimodal understanding through the entire data--conditioning--alignment--evaluation chain, and we examine this chain module by module.",
+      "🚀 **Paradigm Shift:** Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.04916.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 52,
+    "discovered_at": "2026-11-05 02:46:40 IST"
+  },
+  "b64b568c973c9e15": {
+    "id": "b64b568c973c9e15",
+    "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+    "source": "arXiv / Hugging Face (51 upvotes)",
+    "url": "https://huggingface.co/papers/2611.05377",
+    "crux": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments.",
+    "key_points": [
+      "💡 **Core Innovation:** Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance.",
+      "📊 **Key Results:** Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance.",
+      "🚀 **Paradigm Shift:** Furthermore, this shared interface also enables policy learning in a compact latent action space, reducing the computational cost of video-diffusion-based policies."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.05377.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 51,
+    "discovered_at": "2026-11-05 02:46:40 IST"
+  },
+  "34810eb806abbed7": {
+    "id": "34810eb806abbed7",
+    "title": "Investigating vault particles with Claude",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd0V1dFM4a0hJdG5SOGZBMkpQbHRZN1JwV3M4SGZQLXg3Tm1qSzdWZHZxNzI0SzA2bVdMdXEwRmRUcXJRN2pEazBBbHZaTktrQzZBNF9IQ1NGM3FhVU9ISDZTVW1kNU1ndk1ORjBKenR2Mkh6Q0U0NVowN1ZTM0hGLVNR?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Investigating vault particles with Claude</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-05 02:46:41 IST"
+  },
+  "182656aa27d67784": {
+    "id": "182656aa27d67784",
+    "title": "Research",
+    "source": "OpenAI Research",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5KMERKVDc1eG9fdkdqZ1htNTljTUdDVG1jNUhjZ3hZTGlncXdDZVBtSzFCN1lhc2RGOHJDMjZsTXlody1DeVhxUQ?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OpenAI</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-05 02:46:42 IST"
+  },
+  "7d484c1d08080d64": {
+    "id": "7d484c1d08080d64",
+    "title": "AI at Meta Research: Muse Wonder, Muse Spark and Muse Glimmer",
+    "source": "Meta AI Research",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA1ejNyS2o0RlZaazlqcUFsS1FCTWpsanZ3MFc0cExGY3ljWHBvWE5aR1VOVVhVMUM1S1kyR1ljVTdmVkU?oc=5",
+    "crux": "<a href=\" target=\"_blank\">AI at Meta Research: Muse Wonder, Muse Spark and Muse Glimmer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI at Meta</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-05 02:46:42 IST"
+  },
+  "b6e2d388ab37d010": {
+    "id": "b6e2d388ab37d010",
+    "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+    "crux": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position.",
+    "key_points": [
+      "💡 **Core Innovation:** But the blue wave that swept the Lone Star State may jeopardize that position.",
+      "📊 **Key Results:** Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts.",
+      "🚀 **Why It Matters:** Gina Hinojosa won the race for governor against the Republican incumbent,&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-05 02:46:42 IST"
+  },
+  "903225873c4405e2": {
+    "id": "903225873c4405e2",
+    "title": "Securing the agentic enterprise with data lineage",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+    "crux": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep.",
+    "key_points": [
+      "💡 **Core Innovation:** A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes.",
+      "🚀 **Why It Matters:** No human checks either handoff."
+    ],
+    "pdf_url": null,
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 90,
+    "discovered_at": "2026-11-05 02:46:42 IST"
   }
 }
