@@ -3,117 +3,107 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `06 November 2026`  
+**Latest Edition:** `07 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. Turns Matter: Advancing Streaming Video RL via Turn-Level Credit
-**🏛️ Source:** `arXiv / Hugging Face (124 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+### 1. Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents
+**🏛️ Source:** `arXiv / Hugging Face (114 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns.
+> Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Streaming video understanding requires models to repeatedly decide whether to respond or continue observing.
-  - 📊 **Key Results:** Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns.
-  - 🚀 **Why It Matters:** Extensive experiments show our method outperforms prior RL approaches for streaming video understanding.
+  - 💡 **Core Innovation:** We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner.
+  - 📊 **Key Results:** A single frozen LimiX-2 predictor serves all five task categories.
+  - 🚀 **Why It Matters:** DPDM makes learning from experience an independently improvable foundation-model capability, creating a shared route for advances in conditional prediction to improve decisions across agent tasks.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.06728](https://huggingface.co/papers/2611.06728) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.06728.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.02075](https://huggingface.co/papers/2611.02075) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.02075.pdf)
 
 ---
-### 2. From Pixels to Actions - Towards Native Vision-Language-Action Policies
-**🏛️ Source:** `arXiv / Hugging Face (56 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 2. VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
+**🏛️ Source:** `arXiv / Hugging Face (96 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes.
+> Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards.
-  - 📊 **Key Results:** This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation?
-  - 🚀 **Paradigm Shift:** More strikingly, layer-wise probing shows that the action-critical signals often peak well before the final visual representation.
+  - 💡 **Core Innovation:** Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language.
+  - 📊 **Key Results:** They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion.
+  - 🚀 **Paradigm Shift:** Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.06918](https://huggingface.co/papers/2611.06918) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.06918.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.08449](https://huggingface.co/papers/2611.08449) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.08449.pdf)
 
 ---
-### 3. FrontierPhysics: Evaluating Agents for End-to-End Physics Research
-**🏛️ Source:** `arXiv / Hugging Face (47 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 3. SLA: Scaling Spatial-Language-Action Model via Continual Pre-training
+**🏛️ Source:** `arXiv / Hugging Face (93 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness.
+> Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics.
-  - 📊 **Key Results:** However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness.
-  - 🚀 **Why It Matters:** Manual review of agent trajectories shows that frontier agents' main weaknesses are insufficiently rigorous reasoning and limited expert intuition, rather than gaps in physics knowledge or execution errors.
+  - 💡 **Core Innovation:** However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation.
+  - 📊 **Key Results:** Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience.
+  - 🚀 **Why It Matters:** All auxiliary components are used only during training, allowing direct reuse of pretrained VLA weights and preserving the original inference architecture.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.06910](https://huggingface.co/papers/2611.06910) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.06910.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.08373](https://huggingface.co/papers/2611.08373) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.08373.pdf)
 
 ---
-### 4. What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?
-**🏛️ Source:** `arXiv / Hugging Face (34 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 4. Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training
+**🏛️ Source:** `arXiv / Hugging Face (55 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten.
+> Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten.
-  - 📊 **Key Results:** While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints.
-  - 🚀 **Paradigm Shift:** Experiments demonstrate that BudgetMix RL achieves robust performance across diverse execution settings.
+  - 💡 **Core Innovation:** Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness.
+  - 📊 **Key Results:** Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns.
+  - 🚀 **Why It Matters:** Reusing the router for Rank-1 inference provides additional gains at the same executor rollout count.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.06483](https://huggingface.co/papers/2611.06483) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.06483.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.04277](https://huggingface.co/papers/2611.04277) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.04277.pdf)
 
 ---
-### 5. GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling
-**🏛️ Source:** `arXiv / Hugging Face (34 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+### 5. Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand
+**🏛️ Source:** `arXiv / Hugging Face (50 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data.
+> Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger errors, resulting in a long-tailed distribution.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs.
-  - 📊 **Key Results:** Existing gameplay video datasets typically consist of clips under ten seconds, with captions that describe whole clips in coarse and undifferentiated text, which is insufficient for controllable long-horizon generation.
-  - 🚀 **Paradigm Shift:** Experiments further demonstrate that training on GameVerse substantially extends the temporal horizon of interactive world models.
+  - 💡 **Core Innovation:** Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results.
+  - 📊 **Key Results:** Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results.
+  - 🚀 **Paradigm Shift:** It further reduces OOD estimation error by 21.8% on average across score-range, model-family, and temporal shifts.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.37257](https://huggingface.co/papers/2610.37257) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.37257.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.00883](https://huggingface.co/papers/2611.00883) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.00883.pdf)
 
 ---
-### 6. AI for scientific discovery How researchers use Claude
-**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
+### 6. The components of agent memory
+**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">AI for scientific discovery How researchers use Claude</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+> <a href=" target="_blank">The components of agent memory</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
 
 **Key Takeaways & Paradigm Shift:**
 
 
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMibkFVX3lxTE9wMDFpTC1odkNLZ3AxZk5sMUplMXhyU2MtSll2Z3J6a20tN3p5UjJuTF83T2xaNzlTbDJGQ1J6ckk2TUcyTWVRSUNETjZQbjhBa2R3cHcyQi1CRVJSQ3BmTHBYb1gtT2JNemw3bmt3?oc=5](https://news.google.com/rss/articles/CBMibkFVX3lxTE9wMDFpTC1odkNLZ3AxZk5sMUplMXhyU2MtSll2Z3J6a20tN3p5UjJuTF83T2xaNzlTbDJGQ1J6ckk2TUcyTWVRSUNETjZQbjhBa2R3cHcyQi1CRVJSQ3BmTHBYb1gtT2JNemw3bmt3?oc=5)
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMibkFVX3lxTE5uaktEZlp1anNnLVpGTHNDMXE2d0p2cmxiRzZ3REI2QWQzYndMV01KVk1UYWExM0RlSF9YR3FrRzd6Wllhcm80NDZWanpDTV9zZkNoZWlzcWp4YWxDNkFqa1p2Z290X3BobFg1TnBn?oc=5](https://news.google.com/rss/articles/CBMibkFVX3lxTE5uaktEZlp1anNnLVpGTHNDMXE2d0p2cmxiRzZ3REI2QWQzYndMV01KVk1UYWExM0RlSF9YR3FrRzd6Wllhcm80NDZWanpDTV9zZkNoZWlzcWp4YWxDNkFqa1p2Z290X3BobFg1TnBn?oc=5)
 
 ---
-### 7. GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents
-**🏛️ Source:** `OpenAI Research` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 7. I watched a humanoid robot clean my apartment. It felt like a taste of the future.
+**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
+> I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser.
 
 **Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser.
+  - 📊 **Key Results:** But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;
+  - 🚀 **Why It Matters:** But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;
 
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tRzhtYk1MeTljUjdBLW5pMUJCVWJYZ0RzUXB3a0VnVlVtTEtCRHhDR1ZGeEZwOXNvdUp3N2hOMklObzBQbHRsV3lna0xiLXNlSHBOS3RyS0M3dFRZMFE?oc=5](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tRzhtYk1MeTljUjdBLW5pMUJCVWJYZ0RzUXB3a0VnVlVtTEtCRHhDR1ZGeEZwOXNvdUp3N2hOMklObzBQbHRsV3lna0xiLXNlSHBOS3RyS0M3dFRZMFE?oc=5)
-
----
-### 8. Introducing Llama 3.1: Our most capable models to date
-**🏛️ Source:** `Meta AI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
-
-> **The Crux (Simple English):**  
-> <a href=" target="_blank">Introducing Llama 3.1: Our most capable models to date</a>&nbsp;&nbsp;<font color="#6f6f6f">AI at Meta</font>
-
-**Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** <a href=" target="_blank">Introducing Llama 3.1: Our most capable models to date</a>&nbsp;&nbsp;<font color="#6f6f6f">AI at Meta</font>
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiUkFVX3lxTE54RFo0bDEzY2l2TjdZQnNYUWpGMEl6a04yd29FRkU3azRXeTBGLVZmaDhHT2ZLSXFhcTNFM3hGbFlBeEstYVVHZlNHZ0pTUVVOa0E?oc=5](https://news.google.com/rss/articles/CBMiUkFVX3lxTE54RFo0bDEzY2l2TjdZQnNYUWpGMEl6a04yd29FRkU3azRXeTBGLVZmaDhHT2ZLSXFhcTNFM3hGbFlBeEstYVVHZlNHZ0pTUVVOa0E?oc=5)
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/](https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/)
 
 
 ---
