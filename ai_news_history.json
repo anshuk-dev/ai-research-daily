@@ -1320,5 +1320,21 @@
     "category": "Embodied & Multimodal AI",
     "score": 90,
     "discovered_at": "2026-11-07 02:39:04 IST"
+  },
+  "28cdd95941dc23f5": {
+    "id": "28cdd95941dc23f5",
+    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+    "source": "arXiv / Hugging Face (86 upvotes)",
+    "url": "https://huggingface.co/papers/2611.05376",
+    "crux": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf.",
+    "key_points": [
+      "💡 **Core Innovation:** Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf.",
+      "📊 **Key Results:** Realizing it calls for a new kind of system, a cognitive symbiont: a lifelong, embedded, real-time, private, low-friction, and proactive companion that senses what the person senses through external devices, keeps their context across years, models their situation and their mind, takes part in their thinking at the right moment, carries out everyday tasks with their context, and keeps learning the person as both change.",
+      "🚀 **Paradigm Shift:** Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.05376.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 86,
+    "discovered_at": "2026-11-08 02:41:52 IST"
   }
 }
