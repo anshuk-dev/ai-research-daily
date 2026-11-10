@@ -3,79 +3,105 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `09 November 2026`  
+**Latest Edition:** `10 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence
-**🏛️ Source:** `arXiv / Hugging Face (86 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 1. SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes
+**🏛️ Source:** `arXiv / Hugging Face (63 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
 
 > **The Crux (Simple English):**  
-> For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf.
+> We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf.
-  - 📊 **Key Results:** Realizing it calls for a new kind of system, a cognitive symbiont: a lifelong, embedded, real-time, private, low-friction, and proactive companion that senses what the person senses through external devices, keeps their context across years, models their situation and their mind, takes part in their thinking at the right moment, carries out everyday tasks with their context, and keeps learning the person as both change.
-  - 🚀 **Paradigm Shift:** Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person.
+  - 💡 **Core Innovation:** We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations.
+  - 📊 **Key Results:** We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations.
+  - 🚀 **Paradigm Shift:** This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.05376](https://huggingface.co/papers/2611.05376) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.05376.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.08264](https://huggingface.co/papers/2611.08264) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.08264.pdf)
 
 ---
-### 2. I watched a humanoid robot clean my apartment. It felt like a taste of the future.
-**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+### 2. P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors
+**🏛️ Source:** `arXiv / Hugging Face (45 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser.
+> Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser.
-  - 📊 **Key Results:** But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;
-  - 🚀 **Why It Matters:** But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;
+  - 💡 **Core Innovation:** We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective.
+  - 📊 **Key Results:** Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations.
+  - 🚀 **Why It Matters:** At the end of training, our 1.7B model reaches 94.7% average recovery, versus 80.9% for MOPD.
 
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/](https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.03953](https://huggingface.co/papers/2611.03953) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.03953.pdf)
 
 ---
-### 3. The components of agent memory
-**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 3. Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription
+**🏛️ Source:** `arXiv / Hugging Face (33 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">The components of agent memory</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+> Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action.
 
 **Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency.
+  - 📊 **Key Results:** In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency.
+  - 🚀 **Why It Matters:** We open-source the model weights and code at and
 
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMibkFVX3lxTE5uaktEZlp1anNnLVpGTHNDMXE2d0p2cmxiRzZ3REI2QWQzYndMV01KVk1UYWExM0RlSF9YR3FrRzd6Wllhcm80NDZWanpDTV9zZkNoZWlzcWp4YWxDNkFqa1p2Z290X3BobFg1TnBn?oc=5](https://news.google.com/rss/articles/CBMibkFVX3lxTE5uaktEZlp1anNnLVpGTHNDMXE2d0p2cmxiRzZ3REI2QWQzYndMV01KVk1UYWExM0RlSF9YR3FrRzd6Wllhcm80NDZWanpDTV9zZkNoZWlzcWp4YWxDNkFqa1p2Z290X3BobFg1TnBn?oc=5)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.06043](https://huggingface.co/papers/2611.06043) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.06043.pdf)
 
 ---
-### 4. Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents
-**🏛️ Source:** `arXiv / Hugging Face (114 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 4. PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?
+**🏛️ Source:** `arXiv / Hugging Face (30 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner.
+> Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner.
-  - 📊 **Key Results:** A single frozen LimiX-2 predictor serves all five task categories.
-  - 🚀 **Why It Matters:** DPDM makes learning from experience an independently improvable foundation-model capability, creating a shared route for advances in conditional prediction to improve decisions across agent tasks.
+  - 💡 **Core Innovation:** We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution.
+  - 📊 **Key Results:** Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules.
+  - 🚀 **Why It Matters:** On the three real-world subsets, PCBRouteAgent outperforms the best evaluated baseline in clean-pass rate by 13.9, 36, and 10 percentage points, respectively.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.02075](https://huggingface.co/papers/2611.02075) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.02075.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.08175](https://huggingface.co/papers/2611.08175) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.08175.pdf)
 
 ---
-### 5. VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
-**🏛️ Source:** `arXiv / Hugging Face (96 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 5. Claude can design electronic prototypes from start to finish
+**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion.
+> <a href=" target="_blank">Claude can design electronic prototypes from start to finish</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language.
-  - 📊 **Key Results:** They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion.
-  - 🚀 **Paradigm Shift:** Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.08449](https://huggingface.co/papers/2611.08449) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.08449.pdf)
+
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMibEFVX3lxTFBCTmk0c0tyNmVjUlFGNGlCZUtLSkxDQS13Unc1LUVXanhOVmt2a2xTLUQ2Vm5LZ2RLQnMzVUhUQXFLTVBfd1VQZi01V0ppVkZLU0VIcXNJT3V3Ul9ZSEFUS3l6S2ZLY0tHOVgxNw?oc=5](https://news.google.com/rss/articles/CBMibEFVX3lxTFBCTmk0c0tyNmVjUlFGNGlCZUtLSkxDQS13Unc1LUVXanhOVmt2a2xTLUQ2Vm5LZ2RLQnMzVUhUQXFLTVBfd1VQZi01V0ppVkZLU0VIcXNJT3V3Ul9ZSEFUS3l6S2ZLY0tHOVgxNw?oc=5)
+
+---
+### 6. The backlash about data centers might really just be about electricity
+**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Frontier AI Research`
+
+> **The Crux (Simple English):**  
+> This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.
+
+**Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** To get stories like this in your inbox first, sign up here.
+  - 📊 **Key Results:** To get stories like this in your inbox first, sign up here.
+  - 🚀 **Why It Matters:** As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub.
+
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/)
+
+---
+### 7. Nancy Pelosi’s replacement is ready to regulate AI
+**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+
+> **The Crux (Simple English):**  
+> As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with Wiener on Friday, only a&#8230;
+
+**Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with Wiener on Friday, only a&#8230;
+
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/](https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/)
 
 
 ---

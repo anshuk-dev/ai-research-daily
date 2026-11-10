@@ -1336,5 +1336,111 @@
     "category": "Autonomous Agents & Self-Improvement",
     "score": 86,
     "discovered_at": "2026-11-08 02:41:52 IST"
+  },
+  "4e31ed263a0d5f16": {
+    "id": "4e31ed263a0d5f16",
+    "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+    "source": "arXiv / Hugging Face (63 upvotes)",
+    "url": "https://huggingface.co/papers/2611.08264",
+    "crux": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision.",
+    "key_points": [
+      "💡 **Core Innovation:** We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations.",
+      "📊 **Key Results:** We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations.",
+      "🚀 **Paradigm Shift:** This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.08264.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 63,
+    "discovered_at": "2026-11-10 02:41:31 IST"
+  },
+  "cc49c5178495f576": {
+    "id": "cc49c5178495f576",
+    "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+    "source": "arXiv / Hugging Face (45 upvotes)",
+    "url": "https://huggingface.co/papers/2611.03953",
+    "crux": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective.",
+    "key_points": [
+      "💡 **Core Innovation:** We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective.",
+      "📊 **Key Results:** Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations.",
+      "🚀 **Why It Matters:** At the end of training, our 1.7B model reaches 94.7% average recovery, versus 80.9% for MOPD."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.03953.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 45,
+    "discovered_at": "2026-11-10 02:41:31 IST"
+  },
+  "43f992a871852a29": {
+    "id": "43f992a871852a29",
+    "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+    "source": "arXiv / Hugging Face (33 upvotes)",
+    "url": "https://huggingface.co/papers/2611.06043",
+    "crux": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action.",
+    "key_points": [
+      "💡 **Core Innovation:** In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency.",
+      "📊 **Key Results:** In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency.",
+      "🚀 **Why It Matters:** We open-source the model weights and code at and"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.06043.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 33,
+    "discovered_at": "2026-11-10 02:41:31 IST"
+  },
+  "c7d925246378dd35": {
+    "id": "c7d925246378dd35",
+    "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+    "source": "arXiv / Hugging Face (30 upvotes)",
+    "url": "https://huggingface.co/papers/2611.08175",
+    "crux": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging.",
+    "key_points": [
+      "💡 **Core Innovation:** We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution.",
+      "📊 **Key Results:** Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules.",
+      "🚀 **Why It Matters:** On the three real-world subsets, PCBRouteAgent outperforms the best evaluated baseline in clean-pass rate by 13.9, 36, and 10 percentage points, respectively."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.08175.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 30,
+    "discovered_at": "2026-11-10 02:41:31 IST"
+  },
+  "7d8086c0abde5cf6": {
+    "id": "7d8086c0abde5cf6",
+    "title": "Claude can design electronic prototypes from start to finish",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCTmk0c0tyNmVjUlFGNGlCZUtLSkxDQS13Unc1LUVXanhOVmt2a2xTLUQ2Vm5LZ2RLQnMzVUhUQXFLTVBfd1VQZi01V0ppVkZLU0VIcXNJT3V3Ul9ZSEFUS3l6S2ZLY0tHOVgxNw?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Claude can design electronic prototypes from start to finish</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-10 02:41:32 IST"
+  },
+  "2c79cab0b4e8e7c4": {
+    "id": "2c79cab0b4e8e7c4",
+    "title": "The backlash about data centers might really just be about electricity",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+    "crux": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
+    "key_points": [
+      "💡 **Core Innovation:** To get stories like this in your inbox first, sign up here.",
+      "📊 **Key Results:** To get stories like this in your inbox first, sign up here.",
+      "🚀 **Why It Matters:** As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub."
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-10 02:41:33 IST"
+  },
+  "9d70ec740d33231d": {
+    "id": "9d70ec740d33231d",
+    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+    "crux": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with Wiener on Friday, only a&#8230;",
+    "key_points": [
+      "💡 **Core Innovation:** Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with Wiener on Friday, only a&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Reasoning & Frontier Architectures",
+    "score": 90,
+    "discovered_at": "2026-11-10 02:41:33 IST"
   }
 }
