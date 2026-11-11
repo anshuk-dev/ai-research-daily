@@ -1442,5 +1442,83 @@
     "category": "Reasoning & Frontier Architectures",
     "score": 90,
     "discovered_at": "2026-11-10 02:41:33 IST"
+  },
+  "4a64a3bf004f2f0c": {
+    "id": "4a64a3bf004f2f0c",
+    "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+    "source": "arXiv / Hugging Face (92 upvotes)",
+    "url": "https://huggingface.co/papers/2611.12806",
+    "crux": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks.",
+    "key_points": [
+      "💡 **Core Innovation:** However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks.",
+      "📊 **Key Results:** Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence.",
+      "🚀 **Paradigm Shift:** (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.12806.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 92,
+    "discovered_at": "2026-11-11 02:40:32 IST"
+  },
+  "cd0ecea7d4995751": {
+    "id": "cd0ecea7d4995751",
+    "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+    "source": "arXiv / Hugging Face (54 upvotes)",
+    "url": "https://huggingface.co/papers/2611.10771",
+    "crux": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions.",
+    "key_points": [
+      "💡 **Core Innovation:** Visual generative models increasingly blur the line between synthesizing observations and simulating environments.",
+      "📊 **Key Results:** We present WorldFoundry, open-source infrastructure for reproducible inference and evaluation across video, 3D and 4D, embodied action, and interactive world systems.",
+      "🚀 **Paradigm Shift:** WorldFoundry enables reproducible comparison of persistent, controllable dynamics across heterogeneous systems, advancing the field from perceptual synthesis toward measurable world intelligence."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.10771.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 54,
+    "discovered_at": "2026-11-11 02:40:32 IST"
+  },
+  "1781547a3763a36b": {
+    "id": "1781547a3763a36b",
+    "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+    "source": "arXiv / Hugging Face (53 upvotes)",
+    "url": "https://huggingface.co/papers/2611.12762",
+    "crux": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.",
+      "📊 **Key Results:** We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.",
+      "🚀 **Why It Matters:** These results support metacognitive regulation as an approach to scientific ideation and its progression toward practical validation."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.12762.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 53,
+    "discovered_at": "2026-11-11 02:40:32 IST"
+  },
+  "1d10363f5d1242e0": {
+    "id": "1d10363f5d1242e0",
+    "title": "Toward the Era of Agentic Embodied Intelligence",
+    "source": "arXiv / Hugging Face (49 upvotes)",
+    "url": "https://huggingface.co/papers/2611.09124",
+    "crux": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface.",
+    "key_points": [
+      "💡 **Core Innovation:** Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery.",
+      "📊 **Key Results:** Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals.",
+      "🚀 **Why It Matters:** We will release the system, models, training scripts, and infrastructure to support efficient embodied learning."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.09124.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 49,
+    "discovered_at": "2026-11-11 02:40:32 IST"
+  },
+  "c3e9f33cdb79b5d5": {
+    "id": "c3e9f33cdb79b5d5",
+    "title": "Anthropic launches roadshow for proposed initial public offering",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51YVF6eThycm5nblZRV2ZpeDRhWUtVRi03bmxZMGNuX0pJMzUzRDFWSHh5clR6VVN1R3ZzaTNFWHNvYjRwUTNCUERQbFQ3WmFyMkxVcGpFTUpjQQ?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Anthropic launches roadshow for proposed initial public offering</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [
+      "💡 **Core Innovation:** <a href=\" target=\"_blank\">Anthropic launches roadshow for proposed initial public offering</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-11 02:40:33 IST"
   }
 }
