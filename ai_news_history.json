@@ -1520,5 +1520,97 @@
     "category": "Frontier AI Research",
     "score": 95,
     "discovered_at": "2026-11-11 02:40:33 IST"
+  },
+  "5075c7e9f4c846a0": {
+    "id": "5075c7e9f4c846a0",
+    "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+    "source": "arXiv / Hugging Face (77 upvotes)",
+    "url": "https://huggingface.co/papers/2611.14210",
+    "crux": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests.",
+    "key_points": [
+      "💡 **Core Innovation:** Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair.",
+      "📊 **Key Results:** Within a state-tree representation, where lossless BF16 storage acts as a special case, the admissible edits are sign flips and exponent shifts that preserve all shared group exponents and mantissas.",
+      "🚀 **Paradigm Shift:** Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14210.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 77,
+    "discovered_at": "2026-11-12 02:41:38 IST"
+  },
+  "3aef9204381a7b75": {
+    "id": "3aef9204381a7b75",
+    "title": "Few-Step Streaming Video Generation via Condition Shifting",
+    "source": "arXiv / Hugging Face (67 upvotes)",
+    "url": "https://huggingface.co/papers/2611.14033",
+    "crux": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator.",
+    "key_points": [
+      "💡 **Core Innovation:** Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator.",
+      "📊 **Key Results:** We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.",
+      "🚀 **Paradigm Shift:** We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14033.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 67,
+    "discovered_at": "2026-11-12 02:41:38 IST"
+  },
+  "e54a0ea66efe5b94": {
+    "id": "e54a0ea66efe5b94",
+    "title": "World In-Context Learning for Agentic Robot Manipulation",
+    "source": "arXiv / Hugging Face (65 upvotes)",
+    "url": "https://huggingface.co/papers/2611.12885",
+    "crux": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces.",
+    "key_points": [
+      "💡 **Core Innovation:** Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights.",
+      "📊 **Key Results:** In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces.",
+      "🚀 **Why It Matters:** With a world in the loop, a robot can learn a manipulation task in its context as well as it learns one in its weights."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.12885.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 65,
+    "discovered_at": "2026-11-12 02:41:38 IST"
+  },
+  "15b9ead33335ffb3": {
+    "id": "15b9ead33335ffb3",
+    "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+    "source": "arXiv / Hugging Face (57 upvotes)",
+    "url": "https://huggingface.co/papers/2611.14320",
+    "crux": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one.",
+    "key_points": [
+      "💡 **Core Innovation:** To address this, we introduce WikiTrace, an evidence-linked memory system designed to let agents check each lesson against its original trajectory.",
+      "📊 **Key Results:** External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks.",
+      "🚀 **Paradigm Shift:** External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14320.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 57,
+    "discovered_at": "2026-11-12 02:41:38 IST"
+  },
+  "93e21bca17565de4": {
+    "id": "93e21bca17565de4",
+    "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+    "source": "arXiv / Hugging Face (34 upvotes)",
+    "url": "https://huggingface.co/papers/2611.11995",
+    "crux": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.",
+      "📊 **Key Results:** We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.",
+      "🚀 **Why It Matters:** Together, Our Infrathon framework provide resources for constructing long-horizon tasks, evaluating frontier agents, and discovering good infrastructure solutions."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.11995.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 34,
+    "discovered_at": "2026-11-12 02:41:38 IST"
+  },
+  "845e144d73a2d963": {
+    "id": "845e144d73a2d963",
+    "title": "Formal Verification of Signal’s Protocol with Gemini",
+    "source": "Google DeepMind",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUlo2UThlRWNiS3o3M2FURDhTVUwteDMxYjBrM1FjR19YUFF0SUJiejVDdVhMdnZNeHRGQXVPQU1Ibk43ekFfY2RFSUE2Zm1Fc3NsVlZTMDZ5ajRmdjZfNzVpcnJzVFdK?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Formal Verification of Signal’s Protocol with Gemini</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Google DeepMind</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-12 02:41:39 IST"
   }
 }

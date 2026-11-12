@@ -3,79 +3,93 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `11 November 2026`  
+**Latest Edition:** `12 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. Learning Heterogeneous Tactile Representation for General Dexterous Manipulation
-**🏛️ Source:** `arXiv / Hugging Face (92 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+### 1. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
+**🏛️ Source:** `arXiv / Hugging Face (77 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks.
+> Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks.
-  - 📊 **Key Results:** Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence.
-  - 🚀 **Paradigm Shift:** (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency.
+  - 💡 **Core Innovation:** Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair.
+  - 📊 **Key Results:** Within a state-tree representation, where lossless BF16 storage acts as a special case, the admissible edits are sign flips and exponent shifts that preserve all shared group exponents and mantissas.
+  - 🚀 **Paradigm Shift:** Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.12806](https://huggingface.co/papers/2611.12806) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.12806.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14210](https://huggingface.co/papers/2611.14210) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14210.pdf)
 
 ---
-### 2. WorldFoundry: Towards Unified Infrastructure for World Intelligence
-**🏛️ Source:** `arXiv / Hugging Face (54 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+### 2. Few-Step Streaming Video Generation via Condition Shifting
+**🏛️ Source:** `arXiv / Hugging Face (67 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions.
+> Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Visual generative models increasingly blur the line between synthesizing observations and simulating environments.
-  - 📊 **Key Results:** We present WorldFoundry, open-source infrastructure for reproducible inference and evaluation across video, 3D and 4D, embodied action, and interactive world systems.
-  - 🚀 **Paradigm Shift:** WorldFoundry enables reproducible comparison of persistent, controllable dynamics across heterogeneous systems, advancing the field from perceptual synthesis toward measurable world intelligence.
+  - 💡 **Core Innovation:** Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator.
+  - 📊 **Key Results:** We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.
+  - 🚀 **Paradigm Shift:** We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.10771](https://huggingface.co/papers/2611.10771) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.10771.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14033](https://huggingface.co/papers/2611.14033) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14033.pdf)
 
 ---
-### 3. Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery
-**🏛️ Source:** `arXiv / Hugging Face (53 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 3. World In-Context Learning for Agentic Robot Manipulation
+**🏛️ Source:** `arXiv / Hugging Face (65 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods.
+> Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.
-  - 📊 **Key Results:** We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it.
-  - 🚀 **Why It Matters:** These results support metacognitive regulation as an approach to scientific ideation and its progression toward practical validation.
+  - 💡 **Core Innovation:** Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights.
+  - 📊 **Key Results:** In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces.
+  - 🚀 **Why It Matters:** With a world in the loop, a robot can learn a manipulation task in its context as well as it learns one in its weights.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.12762](https://huggingface.co/papers/2611.12762) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.12762.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.12885](https://huggingface.co/papers/2611.12885) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.12885.pdf)
 
 ---
-### 4. Toward the Era of Agentic Embodied Intelligence
-**🏛️ Source:** `arXiv / Hugging Face (49 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 4. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents
+**🏛️ Source:** `arXiv / Hugging Face (57 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface.
+> External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery.
-  - 📊 **Key Results:** Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals.
-  - 🚀 **Why It Matters:** We will release the system, models, training scripts, and infrastructure to support efficient embodied learning.
+  - 💡 **Core Innovation:** To address this, we introduce WikiTrace, an evidence-linked memory system designed to let agents check each lesson against its original trajectory.
+  - 📊 **Key Results:** External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks.
+  - 🚀 **Paradigm Shift:** External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.09124](https://huggingface.co/papers/2611.09124) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.09124.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14320](https://huggingface.co/papers/2611.14320) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14320.pdf)
 
 ---
-### 5. Anthropic launches roadshow for proposed initial public offering
-**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
+### 5. Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization
+**🏛️ Source:** `arXiv / Hugging Face (34 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">Anthropic launches roadshow for proposed initial public offering</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+> In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** <a href=" target="_blank">Anthropic launches roadshow for proposed initial public offering</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+  - 💡 **Core Innovation:** We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.
+  - 📊 **Key Results:** We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.
+  - 🚀 **Why It Matters:** Together, Our Infrathon framework provide resources for constructing long-horizon tasks, evaluating frontier agents, and discovering good infrastructure solutions.
 
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiWkFVX3lxTE51YVF6eThycm5nblZRV2ZpeDRhWUtVRi03bmxZMGNuX0pJMzUzRDFWSHh5clR6VVN1R3ZzaTNFWHNvYjRwUTNCUERQbFQ3WmFyMkxVcGpFTUpjQQ?oc=5](https://news.google.com/rss/articles/CBMiWkFVX3lxTE51YVF6eThycm5nblZRV2ZpeDRhWUtVRi03bmxZMGNuX0pJMzUzRDFWSHh5clR6VVN1R3ZzaTNFWHNvYjRwUTNCUERQbFQ3WmFyMkxVcGpFTUpjQQ?oc=5)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.11995](https://huggingface.co/papers/2611.11995) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.11995.pdf)
+
+---
+### 6. Formal Verification of Signal’s Protocol with Gemini
+**🏛️ Source:** `Google DeepMind` &bull; **🏷️ Pillar:** `Frontier AI Research`
+
+> **The Crux (Simple English):**  
+> <a href=" target="_blank">Formal Verification of Signal’s Protocol with Gemini</a>&nbsp;&nbsp;<font color="#6f6f6f">Google DeepMind</font>
+
+**Key Takeaways & Paradigm Shift:**
+
+
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUlo2UThlRWNiS3o3M2FURDhTVUwteDMxYjBrM1FjR19YUFF0SUJiejVDdVhMdnZNeHRGQXVPQU1Ibk43ekFfY2RFSUE2Zm1Fc3NsVlZTMDZ5ajRmdjZfNzVpcnJzVFdK?oc=5](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUlo2UThlRWNiS3o3M2FURDhTVUwteDMxYjBrM1FjR19YUFF0SUJiejVDdVhMdnZNeHRGQXVPQU1Ibk43ekFfY2RFSUE2Zm1Fc3NsVlZTMDZ5ajRmdjZfNzVpcnJzVFdK?oc=5)
 
 
 ---
