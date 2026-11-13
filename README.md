@@ -3,93 +3,117 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `12 November 2026`  
+**Latest Edition:** `13 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
-**🏛️ Source:** `arXiv / Hugging Face (77 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 1. Scaling Mathematical Proof Supervision from Structured Textbooks
+**🏛️ Source:** `arXiv / Hugging Face (42 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests.
+> Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, dependency references, and source provenance.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair.
-  - 📊 **Key Results:** Within a state-tree representation, where lossless BF16 storage acts as a special case, the admissible edits are sign flips and exponent shifts that preserve all shared group exponents and mantissas.
-  - 🚀 **Paradigm Shift:** Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair.
+  - 💡 **Core Innovation:** Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources.
+  - 📊 **Key Results:** We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, dependency references, and source provenance.
+  - 🚀 **Why It Matters:** We will release the corpus to facilitate further research on structured mathematical supervision.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14210](https://huggingface.co/papers/2611.14210) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14210.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2610.40394](https://huggingface.co/papers/2610.40394) &bull; [📥 Download PDF](https://arxiv.org/pdf/2610.40394.pdf)
 
 ---
-### 2. Few-Step Streaming Video Generation via Condition Shifting
-**🏛️ Source:** `arXiv / Hugging Face (67 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 2. One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction
+**🏛️ Source:** `arXiv / Hugging Face (40 upvotes)` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator.
+> Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator.
-  - 📊 **Key Results:** We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.
-  - 🚀 **Paradigm Shift:** We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.
+  - 💡 **Core Innovation:** This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well.
+  - 📊 **Key Results:** Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately.
+  - 🚀 **Why It Matters:** These findings motivate unified tabular models that share useful conditional information while improving categorical reconstruction and faithful joint sampling.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14033](https://huggingface.co/papers/2611.14033) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14033.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.13001](https://huggingface.co/papers/2611.13001) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.13001.pdf)
 
 ---
-### 3. World In-Context Learning for Agentic Robot Manipulation
-**🏛️ Source:** `arXiv / Hugging Face (65 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 3. SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models
+**🏛️ Source:** `arXiv / Hugging Face (36 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces.
+> System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights.
-  - 📊 **Key Results:** In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces.
-  - 🚀 **Why It Matters:** With a world in the loop, a robot can learn a manipulation task in its context as well as it learns one in its weights.
+  - 💡 **Core Innovation:** System One models promise fast, general-purpose decision-making without lengthy token generation.
+  - 📊 **Key Results:** However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks.
+  - 🚀 **Paradigm Shift:** Reasoning-intensive tasks further enable system one-two comparison.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.12885](https://huggingface.co/papers/2611.12885) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.12885.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.15777](https://huggingface.co/papers/2611.15777) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.15777.pdf)
 
 ---
-### 4. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents
-**🏛️ Source:** `arXiv / Hugging Face (57 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 4. BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model
+**🏛️ Source:** `arXiv / Hugging Face (36 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
 
 > **The Crux (Simple English):**  
-> External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one.
+> Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** To address this, we introduce WikiTrace, an evidence-linked memory system designed to let agents check each lesson against its original trajectory.
-  - 📊 **Key Results:** External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks.
-  - 🚀 **Paradigm Shift:** External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks.
+  - 💡 **Core Innovation:** Driving world models aim to simulate how a scene unfolds under different ego actions.
+  - 📊 **Key Results:** The BEV, rendered from scene annotations for training, depicts roads and vehicles as simple shapes at a fixed metric scale, providing a top-down view of their positions and motion with reduced occlusion between vehicles.
+  - 🚀 **Paradigm Shift:** Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories as inputs.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14320](https://huggingface.co/papers/2611.14320) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14320.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14815](https://huggingface.co/papers/2611.14815) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14815.pdf)
 
 ---
-### 5. Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization
+### 5. SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering
 **🏛️ Source:** `arXiv / Hugging Face (34 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.
+> Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.
-  - 📊 **Key Results:** We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels.
-  - 🚀 **Why It Matters:** Together, Our Infrathon framework provide resources for constructing long-horizon tasks, evaluating frontier agents, and discovering good infrastructure solutions.
+  - 💡 **Core Innovation:** We introduce SteerDistill, a quantization-aware distillation method in which a full-precision teacher guides the student to revise failed responses and iteratively refines its guidance using feedback from student execution.
+  - 📊 **Key Results:** Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references.
+  - 🚀 **Why It Matters:** On τ^2-Bench, it outperforms QeRL by 1.84 percentage points in success rate using 67% fewer training GPU hours and produces shorter successful trajectories than the quantized baselines.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.11995](https://huggingface.co/papers/2611.11995) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.11995.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.13410](https://huggingface.co/papers/2611.13410) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.13410.pdf)
 
 ---
-### 6. Formal Verification of Signal’s Protocol with Gemini
-**🏛️ Source:** `Google DeepMind` &bull; **🏷️ Pillar:** `Frontier AI Research`
+### 6. Introducing AlphaProof Code: a breakthrough in verifying complex software at depth
+**🏛️ Source:** `Google DeepMind` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">Formal Verification of Signal’s Protocol with Gemini</a>&nbsp;&nbsp;<font color="#6f6f6f">Google DeepMind</font>
+> <a href=" target="_blank">Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</a>&nbsp;&nbsp;<font color="#6f6f6f">Google DeepMind</font>
+
+**Key Takeaways & Paradigm Shift:**
+  - 📊 **Key Results:** <a href=" target="_blank">Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</a>&nbsp;&nbsp;<font color="#6f6f6f">Google DeepMind</font>
+
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUlo2UThlRWNiS3o3M2FURDhTVUwteDMxYjBrM1FjR19YUFF0SUJiejVDdVhMdnZNeHRGQXVPQU1Ibk43ekFfY2RFSUE2Zm1Fc3NsVlZTMDZ5ajRmdjZfNzVpcnJzVFdK?oc=5](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUlo2UThlRWNiS3o3M2FURDhTVUwteDMxYjBrM1FjR19YUFF0SUJiejVDdVhMdnZNeHRGQXVPQU1Ibk43ekFfY2RFSUE2Zm1Fc3NsVlZTMDZ5ajRmdjZfNzVpcnJzVFdK?oc=5)
+
+---
+### 7. Meta Movie Gen
+**🏛️ Source:** `Meta AI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
+
+> **The Crux (Simple English):**  
+> <a href=" target="_blank">Meta Movie Gen</a>&nbsp;&nbsp;<font color="#6f6f6f">AI at Meta</font>
 
 **Key Takeaways & Paradigm Shift:**
 
 
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUlo2UThlRWNiS3o3M2FURDhTVUwteDMxYjBrM1FjR19YUFF0SUJiejVDdVhMdnZNeHRGQXVPQU1Ibk43ekFfY2RFSUE2Zm1Fc3NsVlZTMDZ5ajRmdjZfNzVpcnJzVFdK?oc=5](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUlo2UThlRWNiS3o3M2FURDhTVUwteDMxYjBrM1FjR19YUFF0SUJiejVDdVhMdnZNeHRGQXVPQU1Ibk43ekFfY2RFSUE2Zm1Fc3NsVlZTMDZ5ajRmdjZfNzVpcnJzVFdK?oc=5)
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XTmp6Tm00a2V2Yk9tenBnVVBkbGJRQnhvV1JWZjhGTlhzb19sdDN6bTY2bU9GdjhTUUZLOUFVeFNUSnBXMWsyX3VOQ295TTY4?oc=5](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XTmp6Tm00a2V2Yk9tenBnVVBkbGJRQnhvV1JWZjhGTlhzb19sdDN6bTY2bU9GdjhTUUZLOUFVeFNUSnBXMWsyX3VOQ295TTY4?oc=5)
+
+---
+### 8. Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility
+**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Frontier AI Research`
+
+> **The Crux (Simple English):**  
+> Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on&#8230;
+
+**Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on&#8230;
+
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/](https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/)
 
 
 ---

@@ -1612,5 +1612,125 @@
     "category": "Frontier AI Research",
     "score": 95,
     "discovered_at": "2026-11-12 02:41:39 IST"
+  },
+  "638dc332393293b4": {
+    "id": "638dc332393293b4",
+    "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+    "source": "arXiv / Hugging Face (42 upvotes)",
+    "url": "https://huggingface.co/papers/2610.40394",
+    "crux": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, dependency references, and source provenance.",
+    "key_points": [
+      "💡 **Core Innovation:** Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources.",
+      "📊 **Key Results:** We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, dependency references, and source provenance.",
+      "🚀 **Why It Matters:** We will release the corpus to facilitate further research on structured mathematical supervision."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2610.40394.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 42,
+    "discovered_at": "2026-11-13 09:02:35 IST"
+  },
+  "fdb1bd4c61ff9d56": {
+    "id": "fdb1bd4c61ff9d56",
+    "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+    "source": "arXiv / Hugging Face (40 upvotes)",
+    "url": "https://huggingface.co/papers/2611.13001",
+    "crux": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well.",
+    "key_points": [
+      "💡 **Core Innovation:** This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well.",
+      "📊 **Key Results:** Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately.",
+      "🚀 **Why It Matters:** These findings motivate unified tabular models that share useful conditional information while improving categorical reconstruction and faithful joint sampling."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13001.pdf",
+    "category": "Frontier AI Research",
+    "score": 40,
+    "discovered_at": "2026-11-13 09:02:35 IST"
+  },
+  "a0fe136959d26b96": {
+    "id": "a0fe136959d26b96",
+    "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+    "source": "arXiv / Hugging Face (36 upvotes)",
+    "url": "https://huggingface.co/papers/2611.15777",
+    "crux": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks.",
+    "key_points": [
+      "💡 **Core Innovation:** System One models promise fast, general-purpose decision-making without lengthy token generation.",
+      "📊 **Key Results:** However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks.",
+      "🚀 **Paradigm Shift:** Reasoning-intensive tasks further enable system one-two comparison."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.15777.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 36,
+    "discovered_at": "2026-11-13 09:02:35 IST"
+  },
+  "fc48ade5b56a829b": {
+    "id": "fc48ade5b56a829b",
+    "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+    "source": "arXiv / Hugging Face (36 upvotes)",
+    "url": "https://huggingface.co/papers/2611.14815",
+    "crux": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control.",
+    "key_points": [
+      "💡 **Core Innovation:** Driving world models aim to simulate how a scene unfolds under different ego actions.",
+      "📊 **Key Results:** The BEV, rendered from scene annotations for training, depicts roads and vehicles as simple shapes at a fixed metric scale, providing a top-down view of their positions and motion with reduced occlusion between vehicles.",
+      "🚀 **Paradigm Shift:** Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories as inputs."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14815.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 36,
+    "discovered_at": "2026-11-13 09:02:35 IST"
+  },
+  "d4450c9f29102764": {
+    "id": "d4450c9f29102764",
+    "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+    "source": "arXiv / Hugging Face (34 upvotes)",
+    "url": "https://huggingface.co/papers/2611.13410",
+    "crux": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce SteerDistill, a quantization-aware distillation method in which a full-precision teacher guides the student to revise failed responses and iteratively refines its guidance using feedback from student execution.",
+      "📊 **Key Results:** Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references.",
+      "🚀 **Why It Matters:** On τ^2-Bench, it outperforms QeRL by 1.84 percentage points in success rate using 67% fewer training GPU hours and produces shorter successful trajectories than the quantized baselines."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.13410.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 34,
+    "discovered_at": "2026-11-13 09:02:35 IST"
+  },
+  "9a41821ad4e44652": {
+    "id": "9a41821ad4e44652",
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "source": "Google DeepMind",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUlo2UThlRWNiS3o3M2FURDhTVUwteDMxYjBrM1FjR19YUFF0SUJiejVDdVhMdnZNeHRGQXVPQU1Ibk43ekFfY2RFSUE2Zm1Fc3NsVlZTMDZ5ajRmdjZfNzVpcnJzVFdK?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Google DeepMind</font>",
+    "key_points": [
+      "📊 **Key Results:** <a href=\" target=\"_blank\">Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Google DeepMind</font>"
+    ],
+    "pdf_url": null,
+    "category": "Reasoning & Frontier Architectures",
+    "score": 95,
+    "discovered_at": "2026-11-13 09:02:36 IST"
+  },
+  "0c7ff9e0addcaa5c": {
+    "id": "0c7ff9e0addcaa5c",
+    "title": "Meta Movie Gen",
+    "source": "Meta AI Research",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XTmp6Tm00a2V2Yk9tenBnVVBkbGJRQnhvV1JWZjhGTlhzb19sdDN6bTY2bU9GdjhTUUZLOUFVeFNUSnBXMWsyX3VOQ295TTY4?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Meta Movie Gen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI at Meta</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-13 09:02:36 IST"
+  },
+  "911aef8d102f1fe0": {
+    "id": "911aef8d102f1fe0",
+    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+    "crux": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on&#8230;",
+    "key_points": [
+      "💡 **Core Innovation:** Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-13 09:02:36 IST"
   }
 }
