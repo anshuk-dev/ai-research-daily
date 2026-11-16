@@ -1792,5 +1792,37 @@
     "category": "Frontier AI Research",
     "score": 95,
     "discovered_at": "2026-11-15 08:48:04 IST"
+  },
+  "d8e8906b527e6530": {
+    "id": "d8e8906b527e6530",
+    "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+    "source": "arXiv / Hugging Face (59 upvotes)",
+    "url": "https://huggingface.co/papers/2611.18397",
+    "crux": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments.",
+      "📊 **Key Results:** We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments.",
+      "🚀 **Paradigm Shift:** Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.18397.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 59,
+    "discovered_at": "2026-11-16 08:58:13 IST"
+  },
+  "a76fae2a5bf7f68f": {
+    "id": "a76fae2a5bf7f68f",
+    "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+    "source": "arXiv / Hugging Face (56 upvotes)",
+    "url": "https://huggingface.co/papers/2611.18359",
+    "crux": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks.",
+    "key_points": [
+      "💡 **Core Innovation:** Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks.",
+      "📊 **Key Results:** Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks.",
+      "🚀 **Why It Matters:** On top of the Embodied System 2 and the evaluation framework, we envision a research roadmap toward sustained autonomy: the ability to perform work safely and reliably with progressively broader responsibility, from executing individual primitives to fulfilling standing roles."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.18359.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 56,
+    "discovered_at": "2026-11-16 08:58:13 IST"
   }
 }
