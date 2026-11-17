@@ -1824,5 +1824,130 @@
     "category": "Autonomous Agents & Self-Improvement",
     "score": 56,
     "discovered_at": "2026-11-16 08:58:13 IST"
+  },
+  "16ce7505c3ab0e1a": {
+    "id": "16ce7505c3ab0e1a",
+    "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+    "source": "arXiv / Hugging Face (87 upvotes)",
+    "url": "https://huggingface.co/papers/2611.15789",
+    "crux": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them.",
+    "key_points": [
+      "💡 **Core Innovation:** Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera.",
+      "📊 **Key Results:** Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera.",
+      "🚀 **Why It Matters:** Agents thus need better visual understanding of space and camera, explicit checks for challenging requests, and item-by-item verification of renders against the brief."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.15789.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 87,
+    "discovered_at": "2026-11-17 10:08:07 IST"
+  },
+  "67c729974fee5d63": {
+    "id": "67c729974fee5d63",
+    "title": "MIRIX-2.0: Multi-Agent Memory System",
+    "source": "arXiv / Hugging Face (50 upvotes)",
+    "url": "https://huggingface.co/papers/2611.12068",
+    "crux": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search.",
+    "key_points": [
+      "💡 **Core Innovation:** We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once.",
+      "📊 **Key Results:** We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once.",
+      "🚀 **Why It Matters:** It needs no fine-tuning, runs with closed and open models, and its code is public."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.12068.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 50,
+    "discovered_at": "2026-11-17 10:08:07 IST"
+  },
+  "57175e01b6ef78d9": {
+    "id": "57175e01b6ef78d9",
+    "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+    "source": "arXiv / Hugging Face (45 upvotes)",
+    "url": "https://huggingface.co/papers/2611.19937",
+    "crux": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities.",
+    "key_points": [
+      "💡 **Core Innovation:** Advances in forecasting models and alpha discovery help identify opportunities.",
+      "📊 **Key Results:** However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives.",
+      "🚀 **Paradigm Shift:** On hourly cryptocurrency perpetual futures, RL refinement raises the annualized net return of the imitation policy from 27.79% to 51.38% and its Calmar ratio from 0.955 to 4.043, surpassing the teacher strategy on every metric, and AllocFlow reaches a Calmar ratio of 4.90 on six further months of unseen 2026 data without retraining."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.19937.pdf",
+    "category": "Frontier AI Research",
+    "score": 45,
+    "discovered_at": "2026-11-17 10:08:07 IST"
+  },
+  "ed8c8104b3f337b2": {
+    "id": "ed8c8104b3f337b2",
+    "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+    "source": "arXiv / Hugging Face (37 upvotes)",
+    "url": "https://huggingface.co/papers/2611.21218",
+    "crux": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare.",
+      "📊 **Key Results:** Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven.",
+      "🚀 **Why It Matters:** Through open collaboration and community contributions, InclusionMed seeks to ensure that diverse healthcare needs worldwide shape how medical AI progress is defined and measured."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.21218.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 37,
+    "discovered_at": "2026-11-17 10:08:07 IST"
+  },
+  "f7b5b7b074ee0e8d": {
+    "id": "f7b5b7b074ee0e8d",
+    "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+    "source": "arXiv / Hugging Face (36 upvotes)",
+    "url": "https://huggingface.co/papers/2611.21003",
+    "crux": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks.",
+    "key_points": [
+      "💡 **Core Innovation:** We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
+      "📊 **Key Results:** We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.",
+      "🚀 **Why It Matters:** All artifacts are available at"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.21003.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 36,
+    "discovered_at": "2026-11-17 10:08:07 IST"
+  },
+  "4a148154ae85fd09": {
+    "id": "4a148154ae85fd09",
+    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+    "source": "OpenAI Research",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjWGxxM05yXzBlNnVXRmxCRkluR252OUdacHlwLVdhTUdPOHFRNFl3eDFKNnlaUWEtSHJCU012R0lnR3lWUTFxd0hGR2FXQms?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Control Room: A central system to track and stop model workloads across our research infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OpenAI</font>",
+    "key_points": [
+      "💡 **Core Innovation:** <a href=\" target=\"_blank\">Control Room: A central system to track and stop model workloads across our research infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OpenAI</font>"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-17 10:08:08 IST"
+  },
+  "1478312462308c97": {
+    "id": "1478312462308c97",
+    "title": "The open-source movement wants Jensen Huang back",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+    "crux": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
+    "key_points": [
+      "💡 **Core Innovation:** To get stories like this in your inbox first, sign up here.",
+      "📊 **Key Results:** To get stories like this in your inbox first, sign up here.",
+      "🚀 **Why It Matters:** On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-17 10:08:09 IST"
+  },
+  "ec02d91d8f809f2d": {
+    "id": "ec02d91d8f809f2d",
+    "title": "Building trustworthy AI by fencing it in, not predicting it",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+    "crux": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t.",
+    "key_points": [
+      "💡 **Core Innovation:** One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t.",
+      "🚀 **Why It Matters:** No rule had told the agents to do&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 90,
+    "discovered_at": "2026-11-17 10:08:09 IST"
   }
 }
