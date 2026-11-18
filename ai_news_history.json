@@ -1949,5 +1949,105 @@
     "category": "Autonomous Agents & Self-Improvement",
     "score": 90,
     "discovered_at": "2026-11-17 10:08:09 IST"
+  },
+  "a37cdb2133d19e44": {
+    "id": "a37cdb2133d19e44",
+    "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+    "source": "arXiv / Hugging Face (141 upvotes)",
+    "url": "https://huggingface.co/papers/2611.22115",
+    "crux": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training.",
+    "key_points": [
+      "💡 **Core Innovation:** We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
+      "📊 **Key Results:** We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.",
+      "🚀 **Why It Matters:** Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22115.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 141,
+    "discovered_at": "2026-11-18 09:42:14 IST"
+  },
+  "eebd69acb634c64c": {
+    "id": "eebd69acb634c64c",
+    "title": "Sage S2.1 Flash Technical Report",
+    "source": "arXiv / Hugging Face (94 upvotes)",
+    "url": "https://huggingface.co/papers/2611.21072",
+    "crux": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.",
+      "📊 **Key Results:** We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.",
+      "🚀 **Why It Matters:** These results show particular strengths in using documentary evidence, producing verifiable workbooks, and carrying out machine learning tasks, alongside competitive performance in desktop and browser workflows that require the model to act on visual feedback."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.21072.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 94,
+    "discovered_at": "2026-11-18 09:42:14 IST"
+  },
+  "0124a15421f4ea2e": {
+    "id": "0124a15421f4ea2e",
+    "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+    "source": "arXiv / Hugging Face (86 upvotes)",
+    "url": "https://huggingface.co/papers/2611.17621",
+    "crux": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads.",
+    "key_points": [
+      "💡 **Core Innovation:** Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs.",
+      "📊 **Key Results:** Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads.",
+      "🚀 **Paradigm Shift:** By jointly considering speedup and cost, STS enables the assessment of practical kernel optimization capability of a model or harness under an acceptable budget."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.17621.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 86,
+    "discovered_at": "2026-11-18 09:42:14 IST"
+  },
+  "e6478749d856cb89": {
+    "id": "e6478749d856cb89",
+    "title": "Weight-Space Programming Doesn't Need Transformers",
+    "source": "arXiv / Hugging Face (40 upvotes)",
+    "url": "https://huggingface.co/papers/2611.22055",
+    "crux": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply.",
+    "key_points": [
+      "💡 **Core Innovation:** Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs.",
+      "📊 **Key Results:** Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves.",
+      "🚀 **Why It Matters:** Pretrained LLMs remain more accurate; the claim concerns which structure to build when writing weights."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.22055.pdf",
+    "category": "Frontier AI Research",
+    "score": 40,
+    "discovered_at": "2026-11-18 09:42:14 IST"
+  },
+  "52b4991b990be7ad": {
+    "id": "52b4991b990be7ad",
+    "title": "Updating our coordinated vulnerability disclosure policy timelines",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVmdyVmc1MjVDcWtuV0NsWG44R3ZzQU5rX1BkVHNkR1NlN2w4cFRselR2dTVLOS1EcjlRbU1idlVSMW11bGFWaFZjN2tydks4VkJUR1dlcXY3b2dZX1k5aE5NMUxFck5kQWZtcXlKNHF3bC1ZZXJTa0xjMDNIN1l3TlF6ZzlwMF8z?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Updating our coordinated vulnerability disclosure policy timelines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-18 09:42:15 IST"
+  },
+  "e0f729aa3090a369": {
+    "id": "e0f729aa3090a369",
+    "title": "Broadening access to AI for scientists",
+    "source": "OpenAI Research",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQY1F3MlV5UmdNdVFMYy03RjJJdUx3S0MwbWluSkFkMHpVZVFRZERWM1FvTTJBZ2JuSnlHSWhpREZjeDFtdUdFenc0X3lUYlcwUVhvdDY4UkdzbWFBTXlKQ3FUbjdlMEwzb0NfQk9mVHFWLVF4bUFR?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Broadening access to AI for scientists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OpenAI</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-18 09:42:15 IST"
+  },
+  "b94e01c4cf7a2f9a": {
+    "id": "b94e01c4cf7a2f9a",
+    "title": "Research Reports",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+    "crux": "To access a report, click on the corresponding image below.",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-18 09:42:16 IST"
   }
 }

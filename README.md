@@ -3,120 +3,103 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `17 November 2026`  
+**Latest Edition:** `18 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender
-**🏛️ Source:** `arXiv / Hugging Face (87 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 1. TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks
+**🏛️ Source:** `arXiv / Hugging Face (141 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them.
+> We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera.
-  - 📊 **Key Results:** Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera.
-  - 🚀 **Why It Matters:** Agents thus need better visual understanding of space and camera, explicit checks for challenging requests, and item-by-item verification of renders against the brief.
+  - 💡 **Core Innovation:** We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.
+  - 📊 **Key Results:** We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.
+  - 🚀 **Why It Matters:** Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.15789](https://huggingface.co/papers/2611.15789) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.15789.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.22115](https://huggingface.co/papers/2611.22115) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.22115.pdf)
 
 ---
-### 2. MIRIX-2.0: Multi-Agent Memory System
-**🏛️ Source:** `arXiv / Hugging Face (50 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 2. Sage S2.1 Flash Technical Report
+**🏛️ Source:** `arXiv / Hugging Face (94 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search.
+> We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once.
-  - 📊 **Key Results:** We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once.
-  - 🚀 **Why It Matters:** It needs no fine-tuning, runs with closed and open models, and its code is public.
+  - 💡 **Core Innovation:** We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.
+  - 📊 **Key Results:** We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.
+  - 🚀 **Why It Matters:** These results show particular strengths in using documentary evidence, producing verifiable workbooks, and carrying out machine learning tasks, alongside competitive performance in desktop and browser workflows that require the model to act on visual feedback.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.12068](https://huggingface.co/papers/2611.12068) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.12068.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.21072](https://huggingface.co/papers/2611.21072) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.21072.pdf)
 
 ---
-### 3. AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data
-**🏛️ Source:** `arXiv / Hugging Face (45 upvotes)` &bull; **🏷️ Pillar:** `Frontier AI Research`
+### 3. AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs
+**🏛️ Source:** `arXiv / Hugging Face (86 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities.
+> Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Advances in forecasting models and alpha discovery help identify opportunities.
-  - 📊 **Key Results:** However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives.
-  - 🚀 **Paradigm Shift:** On hourly cryptocurrency perpetual futures, RL refinement raises the annualized net return of the imitation policy from 27.79% to 51.38% and its Calmar ratio from 0.955 to 4.043, surpassing the teacher strategy on every metric, and AllocFlow reaches a Calmar ratio of 4.90 on six further months of unseen 2026 data without retraining.
+  - 💡 **Core Innovation:** Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs.
+  - 📊 **Key Results:** Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads.
+  - 🚀 **Paradigm Shift:** By jointly considering speedup and cost, STS enables the assessment of practical kernel optimization capability of a model or harness under an acceptable budget.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.19937](https://huggingface.co/papers/2611.19937) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.19937.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.17621](https://huggingface.co/papers/2611.17621) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.17621.pdf)
 
 ---
-### 4. InclusionMed: Benchmarking AI for Inclusive Healthcare
-**🏛️ Source:** `arXiv / Hugging Face (37 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 4. Weight-Space Programming Doesn't Need Transformers
+**🏛️ Source:** `arXiv / Hugging Face (40 upvotes)` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare.
+> Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare.
-  - 📊 **Key Results:** Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven.
-  - 🚀 **Why It Matters:** Through open collaboration and community contributions, InclusionMed seeks to ensure that diverse healthcare needs worldwide shape how medical AI progress is defined and measured.
+  - 💡 **Core Innovation:** Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs.
+  - 📊 **Key Results:** Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves.
+  - 🚀 **Why It Matters:** Pretrained LLMs remain more accurate; the claim concerns which structure to build when writing weights.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.21218](https://huggingface.co/papers/2611.21218) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.21218.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.22055](https://huggingface.co/papers/2611.22055) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.22055.pdf)
 
 ---
-### 5. K2-Horizon: A Frontier Fleet of Open Source Language Models
-**🏛️ Source:** `arXiv / Hugging Face (36 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 5. Updating our coordinated vulnerability disclosure policy timelines
+**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks.
+> <a href=" target="_blank">Updating our coordinated vulnerability disclosure policy timelines</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.
-  - 📊 **Key Results:** We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond.
-  - 🚀 **Why It Matters:** All artifacts are available at
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.21003](https://huggingface.co/papers/2611.21003) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.21003.pdf)
+
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVmdyVmc1MjVDcWtuV0NsWG44R3ZzQU5rX1BkVHNkR1NlN2w4cFRselR2dTVLOS1EcjlRbU1idlVSMW11bGFWaFZjN2tydks4VkJUR1dlcXY3b2dZX1k5aE5NMUxFck5kQWZtcXlKNHF3bC1ZZXJTa0xjMDNIN1l3TlF6ZzlwMF8z?oc=5](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVmdyVmc1MjVDcWtuV0NsWG44R3ZzQU5rX1BkVHNkR1NlN2w4cFRselR2dTVLOS1EcjlRbU1idlVSMW11bGFWaFZjN2tydks4VkJUR1dlcXY3b2dZX1k5aE5NMUxFck5kQWZtcXlKNHF3bC1ZZXJTa0xjMDNIN1l3TlF6ZzlwMF8z?oc=5)
 
 ---
-### 6. Control Room: A central system to track and stop model workloads across our research infrastructure
+### 6. Broadening access to AI for scientists
 **🏛️ Source:** `OpenAI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">Control Room: A central system to track and stop model workloads across our research infrastructure</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
+> <a href=" target="_blank">Broadening access to AI for scientists</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** <a href=" target="_blank">Control Room: A central system to track and stop model workloads across our research infrastructure</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
 
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjWGxxM05yXzBlNnVXRmxCRkluR252OUdacHlwLVdhTUdPOHFRNFl3eDFKNnlaUWEtSHJCU012R0lnR3lWUTFxd0hGR2FXQms?oc=5](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjWGxxM05yXzBlNnVXRmxCRkluR252OUdacHlwLVdhTUdPOHFRNFl3eDFKNnlaUWEtSHJCU012R0lnR3lWUTFxd0hGR2FXQms?oc=5)
+
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMid0FVX3lxTFBQY1F3MlV5UmdNdVFMYy03RjJJdUx3S0MwbWluSkFkMHpVZVFRZERWM1FvTTJBZ2JuSnlHSWhpREZjeDFtdUdFenc0X3lUYlcwUVhvdDY4UkdzbWFBTXlKQ3FUbjdlMEwzb0NfQk9mVHFWLVF4bUFR?oc=5](https://news.google.com/rss/articles/CBMid0FVX3lxTFBQY1F3MlV5UmdNdVFMYy03RjJJdUx3S0MwbWluSkFkMHpVZVFRZERWM1FvTTJBZ2JuSnlHSWhpREZjeDFtdUdFenc0X3lUYlcwUVhvdDY4UkdzbWFBTXlKQ3FUbjdlMEwzb0NfQk9mVHFWLVF4bUFR?oc=5)
 
 ---
-### 7. The open-source movement wants Jensen Huang back
+### 7. Research Reports
 **🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.
+> To access a report, click on the corresponding image below.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** To get stories like this in your inbox first, sign up here.
-  - 📊 **Key Results:** To get stories like this in your inbox first, sign up here.
-  - 🚀 **Why It Matters:** On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia&#8230;
 
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/](https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/)
 
----
-### 8. Building trustworthy AI by fencing it in, not predicting it
-**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
-
-> **The Crux (Simple English):**  
-> In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t.
-
-**Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t.
-  - 🚀 **Why It Matters:** No rule had told the agents to do&#8230;
-
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/](https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/)
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/17/1148203/research-reports/](https://www.technologyreview.com/2026/11/17/1148203/research-reports/)
 
 
 ---
