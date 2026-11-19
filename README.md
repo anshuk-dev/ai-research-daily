@@ -3,103 +3,143 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `18 November 2026`  
+**Latest Edition:** `19 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks
-**🏛️ Source:** `arXiv / Hugging Face (141 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 1. Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices
+**🏛️ Source:** `arXiv / Hugging Face (60 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training.
+> Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.
-  - 📊 **Key Results:** We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend.
-  - 🚀 **Why It Matters:** Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads.
+  - 💡 **Core Innovation:** Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications.
+  - 📊 **Key Results:** Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency.
+  - 🚀 **Paradigm Shift:** Our evaluations on representative consumer hardware with frontier MoE models demonstrate that TIDEWAY significantly outperforms state-of-the-art systems.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.22115](https://huggingface.co/papers/2611.22115) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.22115.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14848](https://huggingface.co/papers/2611.14848) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14848.pdf)
 
 ---
-### 2. Sage S2.1 Flash Technical Report
-**🏛️ Source:** `arXiv / Hugging Face (94 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 2. Jeveration: System One Models Now Generate
+**🏛️ Source:** `arXiv / Hugging Face (37 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements.
+> System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.
-  - 📊 **Key Results:** We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments.
-  - 🚀 **Why It Matters:** These results show particular strengths in using documentary evidence, producing verifiable workbooks, and carrying out machine learning tasks, alongside competitive performance in desktop and browser workflows that require the model to act on visual feedback.
+  - 💡 **Core Innovation:** System One models such as Jev return decisions through fast, parallel prediction.
+  - 📊 **Key Results:** Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass.
+  - 🚀 **Why It Matters:** Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.21072](https://huggingface.co/papers/2611.21072) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.21072.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.24738](https://huggingface.co/papers/2611.24738) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.24738.pdf)
 
 ---
-### 3. AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs
-**🏛️ Source:** `arXiv / Hugging Face (86 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 3. PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling
+**🏛️ Source:** `arXiv / Hugging Face (26 upvotes)` &bull; **🏷️ Pillar:** `AI Systems & Infrastructure`
 
 > **The Crux (Simple English):**  
-> Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads.
+> High-resolution weather prediction is important for resolving local atmospheric patterns missed by coarse global forecasts. Large pretrained weather backbones have improved global forecasting, but adapting them to produce future high-resolution fields from recent coarse states remains challenging and costly.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs.
-  - 📊 **Key Results:** Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads.
-  - 🚀 **Paradigm Shift:** By jointly considering speedup and cost, STS enables the assessment of practical kernel optimization capability of a model or harness under an acceptable budget.
+  - 💡 **Core Innovation:** To this end, we propose a framework that decomposes prediction into spatial and temporal stages using a shared pretrained backbone, fixed numerical scaffolds, and lightweight residual heads.
+  - 📊 **Key Results:** To this end, we propose a framework that decomposes prediction into spatial and temporal stages using a shared pretrained backbone, fixed numerical scaffolds, and lightweight residual heads.
+  - 🚀 **Paradigm Shift:** Large pretrained weather backbones have improved global forecasting, but adapting them to produce future high-resolution fields from recent coarse states remains challenging and costly.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.17621](https://huggingface.co/papers/2611.17621) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.17621.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.11318](https://huggingface.co/papers/2611.11318) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.11318.pdf)
 
 ---
-### 4. Weight-Space Programming Doesn't Need Transformers
-**🏛️ Source:** `arXiv / Hugging Face (40 upvotes)` &bull; **🏷️ Pillar:** `Frontier AI Research`
+### 4. Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development
+**🏛️ Source:** `arXiv / Hugging Face (22 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply.
+> Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs.
-  - 📊 **Key Results:** Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves.
-  - 🚀 **Why It Matters:** Pretrained LLMs remain more accurate; the claim concerns which structure to build when writing weights.
+  - 💡 **Core Innovation:** To address these gaps, we introduce Game2Player, a framework that co-develops game environments and players to collect diverse and verifiable gameplay experience at scale.
+  - 📊 **Key Results:** Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes.
+  - 🚀 **Why It Matters:** More broadly, our work suggests a path for visual agents to scale their gameplay experience by building, verifying, and learning from existing game worlds.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.22055](https://huggingface.co/papers/2611.22055) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.22055.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.24154](https://huggingface.co/papers/2611.24154) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.24154.pdf)
 
 ---
-### 5. Updating our coordinated vulnerability disclosure policy timelines
+### 5. ALIVE: Making Streaming Video Models Interactive
+**🏛️ Source:** `arXiv / Hugging Face (19 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+
+> **The Crux (Simple English):**  
+> Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction.
+
+**Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction.
+  - 📊 **Key Results:** We also introduce FSI-Bench to evaluate feedback seeking and subsequent task completion.
+  - 🚀 **Why It Matters:** ALIVE achieves the highest overall scores among the compared models on four public benchmarks and FSI-Bench, demonstrating strong streaming understanding and interactive capabilities.
+
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.21366](https://huggingface.co/papers/2611.21366) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.21366.pdf)
+
+---
+### 6. Anthropic prices initial public offering
 **🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">Updating our coordinated vulnerability disclosure policy timelines</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
+> <a href=" target="_blank">Anthropic prices initial public offering</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
 
 **Key Takeaways & Paradigm Shift:**
 
 
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVmdyVmc1MjVDcWtuV0NsWG44R3ZzQU5rX1BkVHNkR1NlN2w4cFRselR2dTVLOS1EcjlRbU1idlVSMW11bGFWaFZjN2tydks4VkJUR1dlcXY3b2dZX1k5aE5NMUxFck5kQWZtcXlKNHF3bC1ZZXJTa0xjMDNIN1l3TlF6ZzlwMF8z?oc=5](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVmdyVmc1MjVDcWtuV0NsWG44R3ZzQU5rX1BkVHNkR1NlN2w4cFRselR2dTVLOS1EcjlRbU1idlVSMW11bGFWaFZjN2tydks4VkJUR1dlcXY3b2dZX1k5aE5NMUxFck5kQWZtcXlKNHF3bC1ZZXJTa0xjMDNIN1l3TlF6ZzlwMF8z?oc=5)
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMie0FVX3lxTE0wb1JNWEpudjJCR014ZnpEdkQ1MUFXOTZsRV9sU2wxclptYmRMVjY3d2R3bWJ2U2ZXdlktS1lNVE45b2NrVkY4aERJOXRJVkpRdy1kd2tRek52UG8wcXUwUEQwaUlEM0p1aE9YRlRvbnkyZVJUSmFLcWhFOA?oc=5](https://news.google.com/rss/articles/CBMie0FVX3lxTE0wb1JNWEpudjJCR014ZnpEdkQ1MUFXOTZsRV9sU2wxclptYmRMVjY3d2R3bWJ2U2ZXdlktS1lNVE45b2NrVkY4aERJOXRJVkpRdy1kd2tRek52UG8wcXUwUEQwaUlEM0p1aE9YRlRvbnkyZVJUSmFLcWhFOA?oc=5)
 
 ---
-### 6. Broadening access to AI for scientists
+### 7. Managing frontier AI risk: From training to deployment
 **🏛️ Source:** `OpenAI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> <a href=" target="_blank">Broadening access to AI for scientists</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
+> <a href=" target="_blank">Managing frontier AI risk: From training to deployment</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
 
 **Key Takeaways & Paradigm Shift:**
 
 
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMid0FVX3lxTFBQY1F3MlV5UmdNdVFMYy03RjJJdUx3S0MwbWluSkFkMHpVZVFRZERWM1FvTTJBZ2JuSnlHSWhpREZjeDFtdUdFenc0X3lUYlcwUVhvdDY4UkdzbWFBTXlKQ3FUbjdlMEwzb0NfQk9mVHFWLVF4bUFR?oc=5](https://news.google.com/rss/articles/CBMid0FVX3lxTFBQY1F3MlV5UmdNdVFMYy03RjJJdUx3S0MwbWluSkFkMHpVZVFRZERWM1FvTTJBZ2JuSnlHSWhpREZjeDFtdUdFenc0X3lUYlcwUVhvdDY4UkdzbWFBTXlKQ3FUbjdlMEwzb0NfQk9mVHFWLVF4bUFR?oc=5)
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiYEFVX3lxTE45RHJmSHZiNVNSOHgwYTFQNmh3WnlKVGwyRE43R2dWMEF5d2xsTHBqYzdHQllCanRHeTNYTHAyX0FmcTJiT3p1amxoRDVzMTBxemNiSXkxUXJMcDhxUjdCNw?oc=5](https://news.google.com/rss/articles/CBMiYEFVX3lxTE45RHJmSHZiNVNSOHgwYTFQNmh3WnlKVGwyRE43R2dWMEF5d2xsTHBqYzdHQllCanRHeTNYTHAyX0FmcTJiT3p1amxoRDVzMTBxemNiSXkxUXJMcDhxUjdCNw?oc=5)
 
 ---
-### 7. Research Reports
+### 8. AI at Meta Blog
+**🏛️ Source:** `Meta AI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
+
+> **The Crux (Simple English):**  
+> <a href=" target="_blank">AI at Meta Blog</a>&nbsp;&nbsp;<font color="#6f6f6f">AI at Meta</font>
+
+**Key Takeaways & Paradigm Shift:**
+
+
+🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiPkFVX3lxTE04ZDBzNjRjOWd2VENjOG1ud3hfWUpSNU5yU3pZcnhhRldOcEU5VXFwR0U4dVBfUUZmQ2JITWhB?oc=5](https://news.google.com/rss/articles/CBMiPkFVX3lxTE04ZDBzNjRjOWd2VENjOG1ud3hfWUpSNU5yU3pZcnhhRldOcEU5VXFwR0U4dVBfUUZmQ2JITWhB?oc=5)
+
+---
+### 9. The AI Hype Index: AI is everywhere
+**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+
+> **The Crux (Simple English):**  
+> Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue.
+
+**Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue.
+  - 🚀 **Why It Matters:** Go to the supermarket, and&#8230;
+
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/](https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/)
+
+---
+### 10. This smell startup says its AI nose is as good as a human’s
 **🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> To access a report, click on the corresponding image below.
+> In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;
 
 **Key Takeaways & Paradigm Shift:**
+  - 💡 **Core Innovation:** Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;
+  - 📊 **Key Results:** In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth.
 
-
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/17/1148203/research-reports/](https://www.technologyreview.com/2026/11/17/1148203/research-reports/)
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/](https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/)
 
 
 ---

@@ -2049,5 +2049,151 @@
     "category": "Frontier AI Research",
     "score": 90,
     "discovered_at": "2026-11-18 09:42:16 IST"
+  },
+  "87f6faabccaeca3d": {
+    "id": "87f6faabccaeca3d",
+    "title": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
+    "source": "arXiv / Hugging Face (60 upvotes)",
+    "url": "https://huggingface.co/papers/2611.14848",
+    "crux": "Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency.",
+    "key_points": [
+      "💡 **Core Innovation:** Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications.",
+      "📊 **Key Results:** Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency.",
+      "🚀 **Paradigm Shift:** Our evaluations on representative consumer hardware with frontier MoE models demonstrate that TIDEWAY significantly outperforms state-of-the-art systems."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.14848.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 60,
+    "discovered_at": "2026-11-19 09:51:15 IST"
+  },
+  "a2ee7ec54152f003": {
+    "id": "a2ee7ec54152f003",
+    "title": "Jeveration: System One Models Now Generate",
+    "source": "arXiv / Hugging Face (37 upvotes)",
+    "url": "https://huggingface.co/papers/2611.24738",
+    "crux": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass.",
+    "key_points": [
+      "💡 **Core Innovation:** System One models such as Jev return decisions through fast, parallel prediction.",
+      "📊 **Key Results:** Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass.",
+      "🚀 **Why It Matters:** Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.24738.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 37,
+    "discovered_at": "2026-11-19 09:51:15 IST"
+  },
+  "dc38ddba6ed267d4": {
+    "id": "dc38ddba6ed267d4",
+    "title": "PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling",
+    "source": "arXiv / Hugging Face (26 upvotes)",
+    "url": "https://huggingface.co/papers/2611.11318",
+    "crux": "High-resolution weather prediction is important for resolving local atmospheric patterns missed by coarse global forecasts. Large pretrained weather backbones have improved global forecasting, but adapting them to produce future high-resolution fields from recent coarse states remains challenging and costly.",
+    "key_points": [
+      "💡 **Core Innovation:** To this end, we propose a framework that decomposes prediction into spatial and temporal stages using a shared pretrained backbone, fixed numerical scaffolds, and lightweight residual heads.",
+      "📊 **Key Results:** To this end, we propose a framework that decomposes prediction into spatial and temporal stages using a shared pretrained backbone, fixed numerical scaffolds, and lightweight residual heads.",
+      "🚀 **Paradigm Shift:** Large pretrained weather backbones have improved global forecasting, but adapting them to produce future high-resolution fields from recent coarse states remains challenging and costly."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.11318.pdf",
+    "category": "AI Systems & Infrastructure",
+    "score": 26,
+    "discovered_at": "2026-11-19 09:51:15 IST"
+  },
+  "80d3aa6dc1fe7960": {
+    "id": "80d3aa6dc1fe7960",
+    "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+    "source": "arXiv / Hugging Face (22 upvotes)",
+    "url": "https://huggingface.co/papers/2611.24154",
+    "crux": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions.",
+    "key_points": [
+      "💡 **Core Innovation:** To address these gaps, we introduce Game2Player, a framework that co-develops game environments and players to collect diverse and verifiable gameplay experience at scale.",
+      "📊 **Key Results:** Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes.",
+      "🚀 **Why It Matters:** More broadly, our work suggests a path for visual agents to scale their gameplay experience by building, verifying, and learning from existing game worlds."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.24154.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 22,
+    "discovered_at": "2026-11-19 09:51:15 IST"
+  },
+  "6465a6769de7c824": {
+    "id": "6465a6769de7c824",
+    "title": "ALIVE: Making Streaming Video Models Interactive",
+    "source": "arXiv / Hugging Face (19 upvotes)",
+    "url": "https://huggingface.co/papers/2611.21366",
+    "crux": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction.",
+      "📊 **Key Results:** We also introduce FSI-Bench to evaluate feedback seeking and subsequent task completion.",
+      "🚀 **Why It Matters:** ALIVE achieves the highest overall scores among the compared models on four public benchmarks and FSI-Bench, demonstrating strong streaming understanding and interactive capabilities."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.21366.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 19,
+    "discovered_at": "2026-11-19 09:51:15 IST"
+  },
+  "1be94173d407e4df": {
+    "id": "1be94173d407e4df",
+    "title": "Anthropic prices initial public offering",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wb1JNWEpudjJCR014ZnpEdkQ1MUFXOTZsRV9sU2wxclptYmRMVjY3d2R3bWJ2U2ZXdlktS1lNVE45b2NrVkY4aERJOXRJVkpRdy1kd2tRek52UG8wcXUwUEQwaUlEM0p1aE9YRlRvbnkyZVJUSmFLcWhFOA?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Anthropic prices initial public offering</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-19 09:51:16 IST"
+  },
+  "e416b2f4ea3aa2d9": {
+    "id": "e416b2f4ea3aa2d9",
+    "title": "Managing frontier AI risk: From training to deployment",
+    "source": "OpenAI Research",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45RHJmSHZiNVNSOHgwYTFQNmh3WnlKVGwyRE43R2dWMEF5d2xsTHBqYzdHQllCanRHeTNYTHAyX0FmcTJiT3p1amxoRDVzMTBxemNiSXkxUXJMcDhxUjdCNw?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Managing frontier AI risk: From training to deployment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OpenAI</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-19 09:51:16 IST"
+  },
+  "6e97715359168dd2": {
+    "id": "6e97715359168dd2",
+    "title": "AI at Meta Blog",
+    "source": "Meta AI Research",
+    "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE04ZDBzNjRjOWd2VENjOG1ud3hfWUpSNU5yU3pZcnhhRldOcEU5VXFwR0U4dVBfUUZmQ2JITWhB?oc=5",
+    "crux": "<a href=\" target=\"_blank\">AI at Meta Blog</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI at Meta</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-19 09:51:17 IST"
+  },
+  "38d497aa27fdc93f": {
+    "id": "38d497aa27fdc93f",
+    "title": "The AI Hype Index: AI is everywhere",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+    "crux": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue.",
+    "key_points": [
+      "💡 **Core Innovation:** Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue.",
+      "🚀 **Why It Matters:** Go to the supermarket, and&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Embodied & Multimodal AI",
+    "score": 90,
+    "discovered_at": "2026-11-19 09:51:17 IST"
+  },
+  "900bce8bf930c8b7": {
+    "id": "900bce8bf930c8b7",
+    "title": "This smell startup says its AI nose is as good as a human’s",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+    "crux": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;",
+    "key_points": [
+      "💡 **Core Innovation:** Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;",
+      "📊 **Key Results:** In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth."
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-19 09:51:17 IST"
   }
 }
