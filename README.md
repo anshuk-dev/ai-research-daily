@@ -3,143 +3,81 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `19 November 2026`  
+**Latest Edition:** `20 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices
-**🏛️ Source:** `arXiv / Hugging Face (60 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 1. Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation
+**🏛️ Source:** `arXiv / Hugging Face (39 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency.
+> Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications.
-  - 📊 **Key Results:** Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency.
-  - 🚀 **Paradigm Shift:** Our evaluations on representative consumer hardware with frontier MoE models demonstrate that TIDEWAY significantly outperforms state-of-the-art systems.
+  - 💡 **Core Innovation:** We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains.
+  - 📊 **Key Results:** Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback.
+  - 🚀 **Why It Matters:** These findings point to composing reasoning and execution through environmental feedback as the main open problem.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.14848](https://huggingface.co/papers/2611.14848) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.14848.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.26444](https://huggingface.co/papers/2611.26444) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.26444.pdf)
 
 ---
-### 2. Jeveration: System One Models Now Generate
-**🏛️ Source:** `arXiv / Hugging Face (37 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 2. WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding
+**🏛️ Source:** `arXiv / Hugging Face (33 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass.
+> Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** System One models such as Jev return decisions through fast, parallel prediction.
-  - 📊 **Key Results:** Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass.
-  - 🚀 **Why It Matters:** Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.
+  - 💡 **Core Innovation:** In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants.
+  - 📊 **Key Results:** Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct responses and a thinking mode for explicit step-by-step reasoning.
+  - 🚀 **Paradigm Shift:** Evaluated across more than 120 benchmarks, WeMM-Video demonstrates superior performance in omni-modal video understanding and reasoning, while maintaining highly competitive capabilities across general audio, silent video, image, and text tasks.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.24738](https://huggingface.co/papers/2611.24738) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.24738.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.26409](https://huggingface.co/papers/2611.26409) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.26409.pdf)
 
 ---
-### 3. PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling
-**🏛️ Source:** `arXiv / Hugging Face (26 upvotes)` &bull; **🏷️ Pillar:** `AI Systems & Infrastructure`
+### 3. WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection
+**🏛️ Source:** `arXiv / Hugging Face (30 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> High-resolution weather prediction is important for resolving local atmospheric patterns missed by coarse global forecasts. Large pretrained weather backbones have improved global forecasting, but adapting them to produce future high-resolution fields from recent coarse states remains challenging and costly.
+> Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** To this end, we propose a framework that decomposes prediction into spatial and temporal stages using a shared pretrained backbone, fixed numerical scaffolds, and lightweight residual heads.
-  - 📊 **Key Results:** To this end, we propose a framework that decomposes prediction into spatial and temporal stages using a shared pretrained backbone, fixed numerical scaffolds, and lightweight residual heads.
-  - 🚀 **Paradigm Shift:** Large pretrained weather backbones have improved global forecasting, but adapting them to produce future high-resolution fields from recent coarse states remains challenging and costly.
+  - 💡 **Core Innovation:** However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections.
+  - 📊 **Key Results:** Recent advances in video generation call for reliable detection grounded in explicit forensic evidence.
+  - 🚀 **Why It Matters:** Experiments show that WeVisForensics averages 95.2% detection accuracy across in-domain, out-of-domain and agentic benchmarks, 9.0% above the strongest prior detector, while grounding its verdicts in localized evidence.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.11318](https://huggingface.co/papers/2611.11318) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.11318.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.21373](https://huggingface.co/papers/2611.21373) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.21373.pdf)
 
 ---
-### 4. Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development
-**🏛️ Source:** `arXiv / Hugging Face (22 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 4. Coda-DaVinci: Reimagining Video Generation with Code2Video
+**🏛️ Source:** `arXiv / Hugging Face (28 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions.
+> Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** To address these gaps, we introduce Game2Player, a framework that co-develops game environments and players to collect diverse and verifiable gameplay experience at scale.
-  - 📊 **Key Results:** Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes.
-  - 🚀 **Why It Matters:** More broadly, our work suggests a path for visual agents to scale their gameplay experience by building, verifying, and learning from existing game worlds.
+  - 💡 **Core Innovation:** Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting.
+  - 📊 **Key Results:** Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics.
+  - 🚀 **Paradigm Shift:** Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.24154](https://huggingface.co/papers/2611.24154) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.24154.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.26595](https://huggingface.co/papers/2611.26595) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.26595.pdf)
 
 ---
-### 5. ALIVE: Making Streaming Video Models Interactive
-**🏛️ Source:** `arXiv / Hugging Face (19 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
+### 5. The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation
+**🏛️ Source:** `arXiv / Hugging Face (24 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
 
 > **The Crux (Simple English):**  
-> Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction.
+> 3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views. This mismatch can produce accurate rendered masks from incomplete 3D selections since alpha-blended feature supervision concentrates learning on dominant contributors while leaving occluded or low-contribution Gaussians weakly supervised.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction.
-  - 📊 **Key Results:** We also introduce FSI-Bench to evaluate feedback seeking and subsequent task completion.
-  - 🚀 **Why It Matters:** ALIVE achieves the highest overall scores among the compared models on four public benchmarks and FSI-Bench, demonstrating strong streaming understanding and interactive capabilities.
+  - 💡 **Core Innovation:** 3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views.
+  - 📊 **Key Results:** 3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views.
+  - 🚀 **Paradigm Shift:** 3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.21366](https://huggingface.co/papers/2611.21366) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.21366.pdf)
-
----
-### 6. Anthropic prices initial public offering
-**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
-
-> **The Crux (Simple English):**  
-> <a href=" target="_blank">Anthropic prices initial public offering</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
-
-**Key Takeaways & Paradigm Shift:**
-
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMie0FVX3lxTE0wb1JNWEpudjJCR014ZnpEdkQ1MUFXOTZsRV9sU2wxclptYmRMVjY3d2R3bWJ2U2ZXdlktS1lNVE45b2NrVkY4aERJOXRJVkpRdy1kd2tRek52UG8wcXUwUEQwaUlEM0p1aE9YRlRvbnkyZVJUSmFLcWhFOA?oc=5](https://news.google.com/rss/articles/CBMie0FVX3lxTE0wb1JNWEpudjJCR014ZnpEdkQ1MUFXOTZsRV9sU2wxclptYmRMVjY3d2R3bWJ2U2ZXdlktS1lNVE45b2NrVkY4aERJOXRJVkpRdy1kd2tRek52UG8wcXUwUEQwaUlEM0p1aE9YRlRvbnkyZVJUSmFLcWhFOA?oc=5)
-
----
-### 7. Managing frontier AI risk: From training to deployment
-**🏛️ Source:** `OpenAI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
-
-> **The Crux (Simple English):**  
-> <a href=" target="_blank">Managing frontier AI risk: From training to deployment</a>&nbsp;&nbsp;<font color="#6f6f6f">OpenAI</font>
-
-**Key Takeaways & Paradigm Shift:**
-
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiYEFVX3lxTE45RHJmSHZiNVNSOHgwYTFQNmh3WnlKVGwyRE43R2dWMEF5d2xsTHBqYzdHQllCanRHeTNYTHAyX0FmcTJiT3p1amxoRDVzMTBxemNiSXkxUXJMcDhxUjdCNw?oc=5](https://news.google.com/rss/articles/CBMiYEFVX3lxTE45RHJmSHZiNVNSOHgwYTFQNmh3WnlKVGwyRE43R2dWMEF5d2xsTHBqYzdHQllCanRHeTNYTHAyX0FmcTJiT3p1amxoRDVzMTBxemNiSXkxUXJMcDhxUjdCNw?oc=5)
-
----
-### 8. AI at Meta Blog
-**🏛️ Source:** `Meta AI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
-
-> **The Crux (Simple English):**  
-> <a href=" target="_blank">AI at Meta Blog</a>&nbsp;&nbsp;<font color="#6f6f6f">AI at Meta</font>
-
-**Key Takeaways & Paradigm Shift:**
-
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiPkFVX3lxTE04ZDBzNjRjOWd2VENjOG1ud3hfWUpSNU5yU3pZcnhhRldOcEU5VXFwR0U4dVBfUUZmQ2JITWhB?oc=5](https://news.google.com/rss/articles/CBMiPkFVX3lxTE04ZDBzNjRjOWd2VENjOG1ud3hfWUpSNU5yU3pZcnhhRldOcEU5VXFwR0U4dVBfUUZmQ2JITWhB?oc=5)
-
----
-### 9. The AI Hype Index: AI is everywhere
-**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
-
-> **The Crux (Simple English):**  
-> Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue.
-
-**Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue.
-  - 🚀 **Why It Matters:** Go to the supermarket, and&#8230;
-
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/](https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/)
-
----
-### 10. This smell startup says its AI nose is as good as a human’s
-**🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Frontier AI Research`
-
-> **The Crux (Simple English):**  
-> In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;
-
-**Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;
-  - 📊 **Key Results:** In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth.
-
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/](https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.21383](https://huggingface.co/papers/2611.21383) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.21383.pdf)
 
 
 ---

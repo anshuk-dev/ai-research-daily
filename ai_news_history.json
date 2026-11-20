@@ -2195,5 +2195,85 @@
     "category": "Frontier AI Research",
     "score": 90,
     "discovered_at": "2026-11-19 09:51:17 IST"
+  },
+  "9dff59f684a71d02": {
+    "id": "9dff59f684a71d02",
+    "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+    "source": "arXiv / Hugging Face (39 upvotes)",
+    "url": "https://huggingface.co/papers/2611.26444",
+    "crux": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains.",
+      "📊 **Key Results:** Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback.",
+      "🚀 **Why It Matters:** These findings point to composing reasoning and execution through environmental feedback as the main open problem."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.26444.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 39,
+    "discovered_at": "2026-11-20 09:38:08 IST"
+  },
+  "f16d931b0ba194d8": {
+    "id": "f16d931b0ba194d8",
+    "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+    "source": "arXiv / Hugging Face (33 upvotes)",
+    "url": "https://huggingface.co/papers/2611.26409",
+    "crux": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants.",
+    "key_points": [
+      "💡 **Core Innovation:** In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants.",
+      "📊 **Key Results:** Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct responses and a thinking mode for explicit step-by-step reasoning.",
+      "🚀 **Paradigm Shift:** Evaluated across more than 120 benchmarks, WeMM-Video demonstrates superior performance in omni-modal video understanding and reasoning, while maintaining highly competitive capabilities across general audio, silent video, image, and text tasks."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.26409.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 33,
+    "discovered_at": "2026-11-20 09:38:08 IST"
+  },
+  "743c9035bacde91f": {
+    "id": "743c9035bacde91f",
+    "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+    "source": "arXiv / Hugging Face (30 upvotes)",
+    "url": "https://huggingface.co/papers/2611.21373",
+    "crux": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections.",
+    "key_points": [
+      "💡 **Core Innovation:** However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections.",
+      "📊 **Key Results:** Recent advances in video generation call for reliable detection grounded in explicit forensic evidence.",
+      "🚀 **Why It Matters:** Experiments show that WeVisForensics averages 95.2% detection accuracy across in-domain, out-of-domain and agentic benchmarks, 9.0% above the strongest prior detector, while grounding its verdicts in localized evidence."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.21373.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 30,
+    "discovered_at": "2026-11-20 09:38:08 IST"
+  },
+  "7f4780b17bbef9b3": {
+    "id": "7f4780b17bbef9b3",
+    "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+    "source": "arXiv / Hugging Face (28 upvotes)",
+    "url": "https://huggingface.co/papers/2611.26595",
+    "crux": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm.",
+    "key_points": [
+      "💡 **Core Innovation:** Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting.",
+      "📊 **Key Results:** Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics.",
+      "🚀 **Paradigm Shift:** Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.26595.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 28,
+    "discovered_at": "2026-11-20 09:38:08 IST"
+  },
+  "bc87ae4187b926d9": {
+    "id": "bc87ae4187b926d9",
+    "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+    "source": "arXiv / Hugging Face (24 upvotes)",
+    "url": "https://huggingface.co/papers/2611.21383",
+    "crux": "3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views. This mismatch can produce accurate rendered masks from incomplete 3D selections since alpha-blended feature supervision concentrates learning on dominant contributors while leaving occluded or low-contribution Gaussians weakly supervised.",
+    "key_points": [
+      "💡 **Core Innovation:** 3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views.",
+      "📊 **Key Results:** 3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views.",
+      "🚀 **Paradigm Shift:** 3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.21383.pdf",
+    "category": "Embodied & Multimodal AI",
+    "score": 24,
+    "discovered_at": "2026-11-20 09:38:08 IST"
   }
 }
