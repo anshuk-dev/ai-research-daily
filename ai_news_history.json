@@ -2275,5 +2275,66 @@
     "category": "Embodied & Multimodal AI",
     "score": 24,
     "discovered_at": "2026-11-20 09:38:08 IST"
+  },
+  "7131ed419120178d": {
+    "id": "7131ed419120178d",
+    "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+    "source": "arXiv / Hugging Face (41 upvotes)",
+    "url": "https://huggingface.co/papers/2611.26590",
+    "crux": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes.",
+    "key_points": [
+      "💡 **Core Innovation:** Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations.",
+      "📊 **Key Results:** Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations.",
+      "🚀 **Why It Matters:** These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.26590.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 41,
+    "discovered_at": "2026-11-21 09:10:29 IST"
+  },
+  "62824c668fd1f0a9": {
+    "id": "62824c668fd1f0a9",
+    "title": "Posterior Matching Distillation",
+    "source": "arXiv / Hugging Face (35 upvotes)",
+    "url": "https://huggingface.co/papers/2611.26629",
+    "crux": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's.",
+    "key_points": [
+      "💡 **Core Innovation:** Distribution-based methods achieve this by matching the student's output distribution to the teacher's.",
+      "📊 **Key Results:** Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations.",
+      "🚀 **Paradigm Shift:** Under Gaussian corruption, exponentially tilted posterior mean is a single teacher evaluation at a shifted input."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.26629.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 35,
+    "discovered_at": "2026-11-21 09:10:29 IST"
+  },
+  "25274889ff3ea0b9": {
+    "id": "25274889ff3ea0b9",
+    "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pMHRici1uRTBSYVNzNnJ5UVFiS1gtRjdJNWJZNUpDV0JxdzJVWHVUVEh5dXhVcVBYWXpSQWs2N1dnclY1aXJFaDhzM21OamVwQ1E?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [
+      "📊 **Key Results:** <a href=\" target=\"_blank\">Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-21 09:10:29 IST"
+  },
+  "f3b7e4511759027d": {
+    "id": "f3b7e4511759027d",
+    "title": "The most misunderstood graph in AI just got a major update",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+    "crux": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely&#8230;",
+    "key_points": [
+      "💡 **Core Innovation:** A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding.",
+      "📊 **Key Results:** A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding."
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-21 09:10:30 IST"
   }
 }
