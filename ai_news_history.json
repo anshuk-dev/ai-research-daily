@@ -2348,5 +2348,65 @@
     "category": "Frontier AI Research",
     "score": 95,
     "discovered_at": "2026-11-22 09:19:00 IST"
+  },
+  "aeb8fe93b0dbe17a": {
+    "id": "aeb8fe93b0dbe17a",
+    "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+    "source": "arXiv / Hugging Face (65 upvotes)",
+    "url": "https://huggingface.co/papers/2611.27193",
+    "crux": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope.",
+    "key_points": [
+      "💡 **Core Innovation:** Motivated by these findings, we propose Contraction for Manifold-Constrained Hyper-Connections (cmHC), an exact doubly stochastic method which geometrically contracts the Birkhoff polytope toward its interior.",
+      "📊 **Key Results:** Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices.",
+      "🚀 **Paradigm Shift:** Extensive experiments across dense and mixture-of-experts models at various parameter scales demonstrate the effectiveness and scalability of cmHC."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.27193.pdf",
+    "category": "AI Systems & Infrastructure",
+    "score": 65,
+    "discovered_at": "2026-11-23 10:15:53 IST"
+  },
+  "a588cf1320d4d147": {
+    "id": "a588cf1320d4d147",
+    "title": "Non-penetrating World Models",
+    "source": "arXiv / Hugging Face (43 upvotes)",
+    "url": "https://huggingface.co/papers/2611.27963",
+    "crux": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles.",
+    "key_points": [
+      "💡 **Core Innovation:** We study a new problem of preventing object penetration in interactive video world models.",
+      "📊 **Key Results:** To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles.",
+      "🚀 **Why It Matters:** We publicly release our code, the NoPeBench benchmark, and model weights."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.27963.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 43,
+    "discovered_at": "2026-11-23 10:15:53 IST"
+  },
+  "0a7dfaf933ab9ddd": {
+    "id": "0a7dfaf933ab9ddd",
+    "title": "Clover-35B-A3B-Preview Technical Report",
+    "source": "arXiv / Hugging Face (33 upvotes)",
+    "url": "https://huggingface.co/papers/2611.24636",
+    "crux": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation.",
+      "📊 **Key Results:** We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation.",
+      "🚀 **Why It Matters:** On an internal set of 500 groups, joint prediction raises question accuracy from 90.37% to 93.88% and all-correct group accuracy from 65.4% to 77.0%."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.24636.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 33,
+    "discovered_at": "2026-11-23 10:15:53 IST"
+  },
+  "acd1e0345e1b1d3a": {
+    "id": "acd1e0345e1b1d3a",
+    "title": "Connect 2024: The responsible approach we’re taking to generative AI",
+    "source": "Meta AI Research",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WMWJlaVlyR2NnalduX3pNLUZrMXRiWEdEV2dzZThPdmFyczRIUy1VbjBkUWlkd3FwenhWSjNRZl9Zc1dnODZ1S2o0dGVfU1d2R1RVaGhEX3VUM3pJMnBFVUNmRQ?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Connect 2024: The responsible approach we’re taking to generative AI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI at Meta</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-23 10:15:54 IST"
   }
 }
