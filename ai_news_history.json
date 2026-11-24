@@ -2408,5 +2408,125 @@
     "category": "Frontier AI Research",
     "score": 95,
     "discovered_at": "2026-11-23 10:15:54 IST"
+  },
+  "b79471cf16f5522b": {
+    "id": "b79471cf16f5522b",
+    "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+    "source": "arXiv / Hugging Face (122 upvotes)",
+    "url": "https://huggingface.co/papers/2611.29897",
+    "crux": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead.",
+    "key_points": [
+      "💡 **Core Innovation:** Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead.",
+      "📊 **Key Results:** Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead.",
+      "🚀 **Paradigm Shift:** To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.29897.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 122,
+    "discovered_at": "2026-11-24 11:58:33 IST"
+  },
+  "ccb9a3cfa8bcc270": {
+    "id": "ccb9a3cfa8bcc270",
+    "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+    "source": "arXiv / Hugging Face (83 upvotes)",
+    "url": "https://huggingface.co/papers/2611.31201",
+    "crux": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear.",
+    "key_points": [
+      "💡 **Core Innovation:** Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses.",
+      "📊 **Key Results:** Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses.",
+      "🚀 **Why It Matters:** These results provide both a practical recipe for building strong frontier-model-as-policy harnesses and a clearer account of the capabilities that drive their performance."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.31201.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 83,
+    "discovered_at": "2026-11-24 11:58:33 IST"
+  },
+  "4fb8a08183e275ce": {
+    "id": "4fb8a08183e275ce",
+    "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+    "source": "arXiv / Hugging Face (54 upvotes)",
+    "url": "https://huggingface.co/papers/2611.30662",
+    "crux": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters.",
+    "key_points": [
+      "💡 **Core Innovation:** We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales.",
+      "📊 **Key Results:** We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales.",
+      "🚀 **Paradigm Shift:** We publicly release all model weights and detail our data curation, training recipe, and benchmark construction to facilitate future work on domain-specialized multimodal models."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.30662.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 54,
+    "discovered_at": "2026-11-24 11:58:33 IST"
+  },
+  "a44b69a3616628c4": {
+    "id": "a44b69a3616628c4",
+    "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+    "source": "arXiv / Hugging Face (48 upvotes)",
+    "url": "https://huggingface.co/papers/2611.30013",
+    "crux": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints.",
+      "📊 **Key Results:** Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions.",
+      "🚀 **Why It Matters:** Compact parameter control reduces generation overhead and improves rigging reliability and motion-control accuracy, providing practical guidance for deploying complex 3D motion generation."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.30013.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 48,
+    "discovered_at": "2026-11-24 11:58:33 IST"
+  },
+  "9c3702320abddf4e": {
+    "id": "9c3702320abddf4e",
+    "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
+    "source": "arXiv / Hugging Face (37 upvotes)",
+    "url": "https://huggingface.co/papers/2611.12164",
+    "crux": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests and without reinforcement learning.",
+    "key_points": [
+      "💡 **Core Innovation:** We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests and without reinforcement learning.",
+      "📊 **Key Results:** Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes.",
+      "🚀 **Why It Matters:** All data, code and adapters are publicly available."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.12164.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 37,
+    "discovered_at": "2026-11-24 11:58:33 IST"
+  },
+  "b96a052a7a4f439c": {
+    "id": "b96a052a7a4f439c",
+    "title": "Working with AI",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QQWdUV21Fa2dHR25yU2RLd3Exd0ZQc3RERzMyZFBtWWhxS0NQZjlWR21rWXZqa3FYbmRlZEhPRGhXb19XR3UtTWd3YTdDR3JwM05VTzZoaW82UDdGQWNF?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Working with AI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-24 11:58:33 IST"
+  },
+  "713ed219ac9498c0": {
+    "id": "713ed219ac9498c0",
+    "title": "SAM 3D",
+    "source": "Meta AI Research",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ENnVFVkY3akhxR0xuRkFwWTVHM3kxeFNCR3dEUHhSd25mcEFRMTJrTDk5eWhKRURyQVphdVllb184ZWdoYWhsM2ZpWQ?oc=5",
+    "crux": "<a href=\" target=\"_blank\">SAM 3D</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI at Meta</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-24 11:58:35 IST"
+  },
+  "03212554ddb823ae": {
+    "id": "03212554ddb823ae",
+    "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+    "source": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+    "crux": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
+    "key_points": [
+      "💡 **Core Innovation:** Given “the way we approach model sentience and moral&#8230;",
+      "📊 **Key Results:** To get stories like this in your inbox first, sign up here.",
+      "🚀 **Why It Matters:** Given “the way we approach model sentience and moral&#8230;"
+    ],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 90,
+    "discovered_at": "2026-11-24 11:58:35 IST"
   }
 }
