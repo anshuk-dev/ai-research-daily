@@ -3,119 +3,95 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `24 November 2026`  
+**Latest Edition:** `25 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control
-**🏛️ Source:** `arXiv / Hugging Face (122 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 1. Rewirable Circuits in Transformers with Loom Attention
+**🏛️ Source:** `arXiv / Hugging Face (66 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
 
 > **The Crux (Simple English):**  
-> Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead.
+> We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead.
-  - 📊 **Key Results:** Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead.
-  - 🚀 **Paradigm Shift:** To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update.
+  - 💡 **Core Innovation:** We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens.
+  - 📊 **Key Results:** We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream.
+  - 🚀 **Why It Matters:** For example, trained on the same 300B tokens with only 2% extra FLOPs, LoomPythia-2.8B achieves ~1.6x the average downstream gain of mHC-Pythia-2.8B over Pythia-2.8B, and matches (0-shot) or surpasses (5-shot) Pythia-12B.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.29897](https://huggingface.co/papers/2611.29897) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.29897.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.30634](https://huggingface.co/papers/2611.30634) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.30634.pdf)
 
 ---
-### 2. Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness
-**🏛️ Source:** `arXiv / Hugging Face (83 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 2. Antom 3-in-1 Transformer: A Payment Foundation Model
+**🏛️ Source:** `arXiv / Hugging Face (63 upvotes)` &bull; **🏷️ Pillar:** `AI Systems & Infrastructure`
 
 > **The Crux (Simple English):**  
-> Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear.
+> We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses.
-  - 📊 **Key Results:** Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses.
-  - 🚀 **Why It Matters:** These results provide both a practical recipe for building strong frontier-model-as-policy harnesses and a clearer account of the capabilities that drive their performance.
+  - 💡 **Core Innovation:** We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection.
+  - 📊 **Key Results:** The model contains approximately 7B parameters, with approximately 1.7B activated per task route.
+  - 🚀 **Why It Matters:** In a four-month online experiment on Ant International's billion-scale payment platform, the model reduced the overall loss rate by 37.88% relative to XGB-Online.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.31201](https://huggingface.co/papers/2611.31201) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.31201.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.25403](https://huggingface.co/papers/2611.25403) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.25403.pdf)
 
 ---
-### 3. WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce
-**🏛️ Source:** `arXiv / Hugging Face (54 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 3. ACAP: Asynchronous Coding Agents for Efficient Robot Control
+**🏛️ Source:** `arXiv / Hugging Face (56 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters.
+> Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales.
-  - 📊 **Key Results:** We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales.
-  - 🚀 **Paradigm Shift:** We publicly release all model weights and detail our data curation, training recipe, and benchmark construction to facilitate future work on domain-specialized multimodal models.
+  - 💡 **Core Innovation:** We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents.
+  - 📊 **Key Results:** Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work.
+  - 🚀 **Paradigm Shift:** We further demonstrate mobile manipulation using the same member interface for chassis and torso control.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.30662](https://huggingface.co/papers/2611.30662) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.30662.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.31205](https://huggingface.co/papers/2611.31205) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.31205.pdf)
 
 ---
-### 4. 3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets
-**🏛️ Source:** `arXiv / Hugging Face (48 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 4. Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe
+**🏛️ Source:** `arXiv / Hugging Face (49 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints.
+> AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints.
-  - 📊 **Key Results:** Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions.
-  - 🚀 **Why It Matters:** Compact parameter control reduces generation overhead and improves rigging reliability and motion-control accuracy, providing practical guidance for deploying complex 3D motion generation.
+  - 💡 **Core Innovation:** We propose Reinforcement Learning with Verifiable Beliefs (RLVB), which rewards the agent for taking further steps while this posterior still allows several answers and for committing once the evidence is sufficient.
+  - 📊 **Key Results:** In our evaluations, they frequently commit even while their stated belief still names several possible answers.
+  - 🚀 **Why It Matters:** It commits at only 0.1 to 2.2% of the turns at which the evidence is insufficient and its line still names several answers, against 3 to 68% for the base model.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.30013](https://huggingface.co/papers/2611.30013) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.30013.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.32884](https://huggingface.co/papers/2611.32884) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.32884.pdf)
 
 ---
-### 5. Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood
-**🏛️ Source:** `arXiv / Hugging Face (37 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 5. Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents
+**🏛️ Source:** `arXiv / Hugging Face (44 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests and without reinforcement learning.
+> Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own. However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a perception-action gap in which the observed state frequently becomes stale before the corresponding action is executed.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests and without reinforcement learning.
-  - 📊 **Key Results:** Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes.
-  - 🚀 **Why It Matters:** All data, code and adapters are publicly available.
+  - 💡 **Core Innovation:** Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own.
+  - 📊 **Key Results:** However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a perception-action gap in which the observed state frequently becomes stale before the corresponding action is executed.
+  - 🚀 **Paradigm Shift:** Overall, NightWatch demonstrates that the timing of perception is as critical as its content, marking a step toward agents that maintain continuous awareness of their environment rather than perceiving it turn by turn.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.12164](https://huggingface.co/papers/2611.12164) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.12164.pdf)
-
----
-### 6. Working with AI
-**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
-
-> **The Crux (Simple English):**  
-> <a href=" target="_blank">Working with AI</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
-
-**Key Takeaways & Paradigm Shift:**
-
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QQWdUV21Fa2dHR25yU2RLd3Exd0ZQc3RERzMyZFBtWWhxS0NQZjlWR21rWXZqa3FYbmRlZEhPRGhXb19XR3UtTWd3YTdDR3JwM05VTzZoaW82UDdGQWNF?oc=5](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QQWdUV21Fa2dHR25yU2RLd3Exd0ZQc3RERzMyZFBtWWhxS0NQZjlWR21rWXZqa3FYbmRlZEhPRGhXb19XR3UtTWd3YTdDR3JwM05VTzZoaW82UDdGQWNF?oc=5)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.28947](https://huggingface.co/papers/2611.28947) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.28947.pdf)
 
 ---
-### 7. SAM 3D
-**🏛️ Source:** `Meta AI Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
-
-> **The Crux (Simple English):**  
-> <a href=" target="_blank">SAM 3D</a>&nbsp;&nbsp;<font color="#6f6f6f">AI at Meta</font>
-
-**Key Takeaways & Paradigm Shift:**
-
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ENnVFVkY3akhxR0xuRkFwWTVHM3kxeFNCR3dEUHhSd25mcEFRMTJrTDk5eWhKRURyQVphdVllb184ZWdoYWhsM2ZpWQ?oc=5](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ENnVFVkY3akhxR0xuRkFwWTVHM3kxeFNCR3dEUHhSd25mcEFRMTJrTDk5eWhKRURyQVphdVllb184ZWdoYWhsM2ZpWQ?oc=5)
-
----
-### 8. A legendary philosopher isn’t buying Anthropic’s consciousness argument
+### 6. AI is straining America’s open records systems
 **🏛️ Source:** `MIT Technology Review` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.
+> In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Given “the way we approach model sentience and moral&#8230;
-  - 📊 **Key Results:** To get stories like this in your inbox first, sign up here.
-  - 🚀 **Why It Matters:** Given “the way we approach model sentience and moral&#8230;
+  - 💡 **Core Innovation:** He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer.
+  - 📊 **Key Results:** He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer.
+  - 🚀 **Why It Matters:** During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests.
 
-🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/](https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/)
+🔗 **Primary Source URL:** [https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/](https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/)
 
 
 ---
