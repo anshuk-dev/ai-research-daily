@@ -2624,5 +2624,97 @@
     "category": "Frontier AI Research",
     "score": 90,
     "discovered_at": "2026-11-25 10:50:44 IST"
+  },
+  "af93d30bb02271d0": {
+    "id": "af93d30bb02271d0",
+    "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+    "source": "arXiv / Hugging Face (71 upvotes)",
+    "url": "https://huggingface.co/papers/2611.34849",
+    "crux": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them.",
+    "key_points": [
+      "💡 **Core Innovation:** Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them.",
+      "📊 **Key Results:** Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them.",
+      "🚀 **Why It Matters:** Both the platform and Awesome-Real2Sim, our research map of nearly 300 real-to-simulation papers, are open source, and we invite the Real2SimHub community to build them together."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34849.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 71,
+    "discovered_at": "2026-11-26 10:25:24 IST"
+  },
+  "2eb2c6e45e247ea0": {
+    "id": "2eb2c6e45e247ea0",
+    "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+    "source": "arXiv / Hugging Face (50 upvotes)",
+    "url": "https://huggingface.co/papers/2611.34237",
+    "crux": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind.",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce VibeVideoAgent, a training-free framework that lets coding agents inspect their drafts throughout production.",
+      "📊 **Key Results:** This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind.",
+      "🚀 **Why It Matters:** Controlled ablations show that each component contributes, and trajectory audits show that the granularity of code edits governs the trade-off between rubric adherence and perceptual quality."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34237.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 50,
+    "discovered_at": "2026-11-26 10:25:24 IST"
+  },
+  "162fa7fcde444ef4": {
+    "id": "162fa7fcde444ef4",
+    "title": "Mixture-of-Loops Transformer",
+    "source": "arXiv / Hugging Face (47 upvotes)",
+    "url": "https://huggingface.co/papers/2611.34923",
+    "crux": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops?",
+    "key_points": [
+      "💡 **Core Innovation:** We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops.",
+      "📊 **Key Results:** Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency.",
+      "🚀 **Why It Matters:** 1,000.6 ms on S-size (~113M) models."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34923.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 47,
+    "discovered_at": "2026-11-26 10:25:24 IST"
+  },
+  "f584a56c3d120bf3": {
+    "id": "f584a56c3d120bf3",
+    "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+    "source": "arXiv / Hugging Face (45 upvotes)",
+    "url": "https://huggingface.co/papers/2611.34575",
+    "crux": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap.",
+    "key_points": [
+      "💡 **Core Innovation:** Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge.",
+      "📊 **Key Results:** Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap.",
+      "🚀 **Why It Matters:** Although substantial challenges remain in complex medical reasoning and multi-step clinical workflows, this report provides empirical evidence, actionable data and training recipes, and a rigorous benchmark toward scalable clinical multimodal intelligence."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34575.pdf",
+    "category": "Reasoning & Frontier Architectures",
+    "score": 45,
+    "discovered_at": "2026-11-26 10:25:24 IST"
+  },
+  "33d7ef0ac72c8d37": {
+    "id": "33d7ef0ac72c8d37",
+    "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+    "source": "arXiv / Hugging Face (41 upvotes)",
+    "url": "https://huggingface.co/papers/2611.33144",
+    "crux": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations.",
+    "key_points": [
+      "💡 **Core Innovation:** We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations.",
+      "📊 **Key Results:** Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up.",
+      "🚀 **Paradigm Shift:** We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.33144.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 41,
+    "discovered_at": "2026-11-26 10:25:24 IST"
+  },
+  "24f1d223d90ef70c": {
+    "id": "24f1d223d90ef70c",
+    "title": "Migrating our Messages API to Rust",
+    "source": "Anthropic Research",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91blh2eENvd0hsR25fTlhrSkktUlc3djUxb3NYdGo2dm1maGJfZlhvU3NhSS1rWk45WDczZnpiUzVrOEFWVVA1aDRfSXo3YkpfY0RuSzdESDVlU1FqN1VBV1N3Mm5ZdTQ?oc=5",
+    "crux": "<a href=\" target=\"_blank\">Migrating our Messages API to Rust</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropic</font>",
+    "key_points": [],
+    "pdf_url": null,
+    "category": "Frontier AI Research",
+    "score": 95,
+    "discovered_at": "2026-11-26 10:25:25 IST"
   }
 }
