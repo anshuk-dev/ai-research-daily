@@ -3,93 +3,67 @@
 > Automated high-signal executive intelligence briefing covering cutting-edge AI breakthroughs, research papers, and paradigm shifts from top primary sources (OpenAI, Google DeepMind, Anthropic, arXiv, Hugging Face, MIT Tech Review).
 
 [![AI Daily Briefing](https://github.com/actions/workflows/ai_daily_brief.yml/badge.svg)](https://github.com/actions/workflows/ai_daily_brief.yml)
-**Latest Edition:** `26 November 2026`  
+**Latest Edition:** `27 November 2026`  
 **Delivery Inboxes:** `anshu.airesearch@gmail.com`
 
 ---
 
 ## 🔬 Today's Top Breakthroughs & Paradigm Shifts
 
-### 1. Real2SimLab: A Unified Platform for Real-to-Simulation Transfer
-**🏛️ Source:** `arXiv / Hugging Face (71 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 1. Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability
+**🏛️ Source:** `arXiv / Hugging Face (104 upvotes)` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them.
+> Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them.
-  - 📊 **Key Results:** Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them.
-  - 🚀 **Why It Matters:** Both the platform and Awesome-Real2Sim, our research map of nearly 300 real-to-simulation papers, are open source, and we invite the Real2SimHub community to build them together.
+  - 💡 **Core Innovation:** Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states.
+  - 📊 **Key Results:** Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states.
+  - 🚀 **Why It Matters:** Compared to GDN-2, it boosts the 128K average RULER score by 6.80 points in the recurrent setting and average accuracy across nine downstream tasks by 0.62 points in the hybrid setting.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.34849](https://huggingface.co/papers/2611.34849) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.34849.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.34051](https://huggingface.co/papers/2611.34051) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.34051.pdf)
 
 ---
-### 2. VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation
-**🏛️ Source:** `arXiv / Hugging Face (50 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
+### 2. OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms
+**🏛️ Source:** `arXiv / Hugging Face (94 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
 
 > **The Crux (Simple English):**  
-> Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind.
+> Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce VibeVideoAgent, a training-free framework that lets coding agents inspect their drafts throughout production.
-  - 📊 **Key Results:** This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind.
-  - 🚀 **Why It Matters:** Controlled ablations show that each component contributes, and trajectory audits show that the granularity of code edits governs the trade-off between rubric adherence and perceptual quality.
+  - 💡 **Core Innovation:** We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu, macOS, iOS, Android, and Web environments.
+  - 📊 **Key Results:** Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions.
+  - 🚀 **Why It Matters:** These results indicate that current agents remain far from platform-robust, long-horizon computer use, especially when success requires sustained state tracking and durable final-state changes.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.34237](https://huggingface.co/papers/2611.34237) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.34237.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.34232](https://huggingface.co/papers/2611.34232) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.34232.pdf)
 
 ---
-### 3. Mixture-of-Loops Transformer
-**🏛️ Source:** `arXiv / Hugging Face (47 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 3. What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models
+**🏛️ Source:** `arXiv / Hugging Face (35 upvotes)` &bull; **🏷️ Pillar:** `Frontier AI Research`
 
 > **The Crux (Simple English):**  
-> Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops?
+> A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops.
-  - 📊 **Key Results:** Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency.
-  - 🚀 **Why It Matters:** 1,000.6 ms on S-size (~113M) models.
+  - 💡 **Core Innovation:** A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets.
+  - 📊 **Key Results:** fev-bench, Chronos Benchmark II and TIME show the same pattern: their resolution is 3.6 to 19 times the gap between neighbours.
+  - 🚀 **Why It Matters:** We release Vernier, which runs this report with one command on any leaderboard that publishes per-dataset scores:
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.34923](https://huggingface.co/papers/2611.34923) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.34923.pdf)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.31619](https://huggingface.co/papers/2611.31619) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.31619.pdf)
 
 ---
-### 4. Sage-Med: Scaling Medical Multimodal Intelligence
-**🏛️ Source:** `arXiv / Hugging Face (45 upvotes)` &bull; **🏷️ Pillar:** `Reasoning & Frontier Architectures`
+### 4. ProxyGenBench: Benchmarking Proxy-Guided Video Generation
+**🏛️ Source:** `arXiv / Hugging Face (35 upvotes)` &bull; **🏷️ Pillar:** `Embodied & Multimodal AI`
 
 > **The Crux (Simple English):**  
-> Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap.
+> Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order.
 
 **Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge.
-  - 📊 **Key Results:** Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap.
-  - 🚀 **Why It Matters:** Although substantial challenges remain in complex medical reasoning and multi-step clinical workflows, this report provides empirical evidence, actionable data and training recipes, and a rigorous benchmark toward scalable clinical multimodal intelligence.
+  - 💡 **Core Innovation:** We introduce ProxyGenBench to study these interacting requirements, with 312 evaluation cases from 60 scenes across three scene tasks and controlled variations in proxy fidelity, text detail, and multimodal inputs.
+  - 📊 **Key Results:** Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order.
+  - 🚀 **Why It Matters:** Experiments show that proxies improve spatiotemporal control, but greater proxy detail can coincide with poorer completion, while strong structural adherence does not ensure correct binding.
 
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.34575](https://huggingface.co/papers/2611.34575) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.34575.pdf)
-
----
-### 5. PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents
-**🏛️ Source:** `arXiv / Hugging Face (41 upvotes)` &bull; **🏷️ Pillar:** `Autonomous Agents & Self-Improvement`
-
-> **The Crux (Simple English):**  
-> Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations.
-
-**Key Takeaways & Paradigm Shift:**
-  - 💡 **Core Innovation:** We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations.
-  - 📊 **Key Results:** Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up.
-  - 🚀 **Paradigm Shift:** We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations.
-
-🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.33144](https://huggingface.co/papers/2611.33144) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.33144.pdf)
-
----
-### 6. Migrating our Messages API to Rust
-**🏛️ Source:** `Anthropic Research` &bull; **🏷️ Pillar:** `Frontier AI Research`
-
-> **The Crux (Simple English):**  
-> <a href=" target="_blank">Migrating our Messages API to Rust</a>&nbsp;&nbsp;<font color="#6f6f6f">Anthropic</font>
-
-**Key Takeaways & Paradigm Shift:**
-
-
-🔗 **Primary Source URL:** [https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91blh2eENvd0hsR25fTlhrSkktUlc3djUxb3NYdGo2dm1maGJfZlhvU3NhSS1rWk45WDczZnpiUzVrOEFWVVA1aDRfSXo3YkpfY0RuSzdESDVlU1FqN1VBV1N3Mm5ZdTQ?oc=5](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91blh2eENvd0hsR25fTlhrSkktUlc3djUxb3NYdGo2dm1maGJfZlhvU3NhSS1rWk45WDczZnpiUzVrOEFWVVA1aDRfSXo3YkpfY0RuSzdESDVlU1FqN1VBV1N3Mm5ZdTQ?oc=5)
+🔗 **Primary Source URL:** [https://huggingface.co/papers/2611.34457](https://huggingface.co/papers/2611.34457) &bull; [📥 Download PDF](https://arxiv.org/pdf/2611.34457.pdf)
 
 
 ---
