@@ -2780,5 +2780,21 @@
     "category": "Embodied & Multimodal AI",
     "score": 35,
     "discovered_at": "2026-11-27 10:29:36 IST"
+  },
+  "370cda541eab5323": {
+    "id": "370cda541eab5323",
+    "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+    "source": "arXiv / Hugging Face (61 upvotes)",
+    "url": "https://huggingface.co/papers/2611.34813",
+    "crux": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code.",
+    "key_points": [
+      "💡 **Core Innovation:** Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?",
+      "📊 **Key Results:** Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?",
+      "🚀 **Why It Matters:** We further distinguish depictive programs, which navigate the image to recover a transferable scheme, from propositional programs, which operate on hard-coded values, revealing how visual reasoning unfolds in agent-written programs and what it implies for its nature of reasoning in general."
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2611.34813.pdf",
+    "category": "Autonomous Agents & Self-Improvement",
+    "score": 61,
+    "discovered_at": "2026-11-28 09:45:25 IST"
   }
 }
